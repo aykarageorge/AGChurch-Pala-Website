@@ -16,15 +16,11 @@
 	3.6 Hamburger
 4. Menu
 5. Home
-	5.1 Home Slider
-6. Intro
-7. Services
-8. Sermon
-9. Causes
-10. Quote
-11. News
-12. Newsletter
-13. Footer
+6. Ministries
+7. Quote
+8. Pastors
+9. Newsletter
+10. Footer
 
 
 ******************************/
@@ -118,7 +114,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #800000;
+	background: rgba(235,65,65,0.15);
 	color: #eb4141;
 }
 p::selection
@@ -322,7 +318,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #800000;
+	background: #000000;
 }
 .top_bar_content
 {
@@ -646,51 +642,6 @@ section
 {
 	color: #eb4141;
 }
-
-/*********************************
-5. Home
-*********************************/
-
-.home
-{
-	width: 100%;
-	height: auto;
-}
-
-/*********************************
-5.1 Home Slider
-*********************************/
-
-.home_slider_container
-{
-	width: 100%;
-	height: auto;
-}
-.home_slider_background
-{
-	/* position: absolute; */
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.home_slider_content
-{
-	position: absolute;
-	width: 100%;
-	top: 38.5%;
-	left: 50%;
-	padding-left: 15px;
-	padding-right: 15px;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
 .cross_1
 {
 	width: 89px;
@@ -703,83 +654,16 @@ section
 {
 	width: 44px !important;
 }
-.home_slider_content h1
-{
-	font-size: 112px;
-	font-weight: 700;
-	color: #FFFFFF;
-	margin-top: 29px;
-}
-.home_slider_button
-{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-.home_slider_nav
-{
-	position: absolute;
-	top: 57%;
-	right: 95px;
-	width: 33px;
-	height: 33px;
-	border-radius: 50%;
-	background: rgba(235,65,65,1);
-	z-index: 10;
-	cursor: pointer;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.home_slider_nav:hover
-{
-	background: rgba(235,65,65,0.75);
-}
 
 /*********************************
-6. Intro
+5. Home
 *********************************/
 
-.intro
-{
-	padding-top: 97px;
-	padding-bottom: 98px;
-	background: #FFFFFF;
-}
-.intro_content
-{
-	margin-top: 85px;
-}
-.intro_text
-{
-	width: 100%;
-	margin-top: -8px;
-}
-.intro_button
-{
-	margin-top: 50px;
-}
-.intro_image
+.home
 {
 	width: 100%;
 }
-.intro_image img
-{
-	max-width: 100%;
-}
-
-/*********************************
-7. Services
-*********************************/
-
-.services
-{
-	padding-top: 97px;
-	padding-bottom: 38px;
-}
-.services_background
+.home_background
 {
 	position: absolute;
 	top: 0;
@@ -787,255 +671,89 @@ section
 	width: 100%;
 	height: 100%;
 }
-.services .section_title h2,
-.services .section_subtitle
-{
-	color: #FFFFFF;
-}
-.services_text
-{
-	margin-top: 76px;
-}
-.services_text p
-{
-	color: #FFFFFF;
-	font-weight: 400;
-}
-.services_row
-{
-	align-self: center;
-	align-content: center;
-	align-items: center;
-	margin-top: 91px;
-}
-.services_item
+.home_container
 {
 	width: 100%;
-	margin-bottom: 60px;
+	height: 323px;
 }
-.services_image
+.home_content
 {
-	width: 48px;
-	height: 48px;
-	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 60px;
 }
-.services_image
+.home_title
 {
-	max-width: 100%;
-	max-height: 100%;
+	font-size: 30px;
+	color: #FFFFFF;
+	line-height: 0.75;
 }
-.services_title
+.breadcrumbs li
 {
 	display: inline-block;
-	font-size: 18px;
+	position: relative;
+	font-size: 16px;
+	color: #eb4141;
+	font-weight: 600;
+	line-height: 0.75;
+}
+.breadcrumbs li:not(:last-child)::after
+{
+	content: '/';
+	margin-left: 5px;
 	color: #FFFFFF;
-	margin-top: 18px;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
 }
-.services_title::after
+.breadcrumbs li a
 {
-	display: block;
-	position: absolute;
-	left: 0;
-	bottom: 0px;
-	width: 100%;
-	height: 1px;
-	background: #ffd600;
-	content: '';
-	visibility: hidden;
-	opacity: 0;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.services_item:hover .services_title
-{
-	color: #eb4141;
-}
-.services_item:hover .services_title::after
-{
-	visibility: visible;
-	opacity: 1;
+	color: #FFFFFF;
+	font-weight: 500;
+	line-height: 0.75;
 }
 
 /*********************************
-8. Sermon
+6. Ministries
 *********************************/
 
-.sermon
+.ministries
 {
 	padding-top: 97px;
-	padding-bottom: 98px;
-	background: #f0f4f8;
-}
-.sermon_background
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.sermon_row
-{
-	margin-top: 84px;
-}
-.sermon_image
-{
-	width: 100%;
-}
-.sermon_image img
-{
-	max-width: 100%;
-}
-.sermon_content
-{
-	width: 100%;
-	margin-top: -8px;
-}
-.sermon_title
-{
-	font-size: 24px;
-	font-weight: 500;
-	color: #000000;
-}
-.sermon_list
-{
-	margin-top: 14px;
-}
-.sermon_list li
-{
-	font-size: 14px;
-	font-weight: 500;
-	color: #000000;
-	margin-bottom: 14px;
-}
-.sermon_list li:last-child
-{
-	margin-bottom: 0;
-}
-.sermon_list li a
-{
-	color: #eb4141;
-}
-.sermon_text
-{
-	margin-top: 33px;
-}
-.sermon_button
-{
-	margin-top: 38px;
-}
-
-/*********************************
-9. Causes
-*********************************/
-
-.causes
-{
-	width: 100%;
-	padding-top: 97px;
-	padding-bottom: 98px;
 	background: #FFFFFF;
 }
-.causes_slider_container
+.ministries_row
+{
+	margin-top: 98px;
+}
+.ministry
+{
+	margin-bottom: 98px;
+}
+.ministry_image
 {
 	width: 100%;
-	margin-top: 85px;
 }
-.causes_item:hover .causes_item_image
-{
-
-}
-.causes_item_image
-{
-	width: 215px;
-	height: 215px;
-	border-radius: 50%;
-	overflow: hidden;
-	margin: 0 auto;
-}
-.causes_item_image::after
-{
-	display: block;
-	position: absolute;
-	top: -1px;
-	left: -1px;
-	width: calc(100% + 2px);
-	height: calc(100% + 2px);
-	border-radius: 50%;
-	content: '';
-	border: solid 10px #eb4141;
-	visibility: hidden;
-	opacity: 0;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.causes_item_image img
+.ministry_image img
 {
 	max-width: 100%;
 }
-.causes_item:hover .causes_item_image::after
-{
-	visibility: visible;
-	opacity: 1;
-}
-.causes_item_title
+.ministry_title
 {
 	font-size: 24px;
+	font-weight: 500;
 	color: #000000;
-	margin-top: 40px;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+	margin-top: 51px;
 }
-.causes_item_text
+.ministry_text
 {
-	margin-top: 12px;
+	margin-top: 31px;
 }
-.causes_item:hover .causes_item_title
+.ministry_button
 {
-	color: #eb4141;
-}
-.causes_slider_nav
-{
-	position: absolute;
-	top: 99px;
-	width: 33px;
-	height: 33px;
-	border-radius: 50%;
-	background: #cbcbcb;
-	cursor: pointer;
-}
-.causes_slider_nav:hover
-{
-	background: #eb4141;
-}
-.causes_slider_prev
-{
-	left: -95px;
-}
-.causes_slider_next
-{
-	right: -95px;
+	margin-top: 34px;
 }
 
 /*********************************
-10. Quote
+7. Quote
 *********************************/
 
 .quote
@@ -1072,84 +790,111 @@ section
 .quote_source
 {
 	font-size: 18px;
+	font-style: italic;
 	color: #e6c100;
 	margin-top: 26px;
 }
 
 /*********************************
-11. News
+8. Pastors
 *********************************/
 
-.news
+.pastors
 {
 	width: 100%;
-	padding-top: 98px;
+	padding-top: 97px;
 	padding-bottom: 98px;
 	background: #FFFFFF;
 }
-.news_row
-{
-	margin-top: 95px;
-}
-.news_item
+.pastors_slider_container
 {
 	width: 100%;
+	margin-top: 85px;
 }
-.news_image
+.pastors_item_image
 {
-	width: 100%;
+	width: 215px;
+	height: 215px;
+	border-radius: 50%;
+	overflow: hidden;
 }
-.news_image img
+.pastors_item_image::after
 {
-	max-width: 100%;
-}
-.news_date
-{
+	display: block;
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 94px;
-	height: 94px;
-	background: #eb4141;
+	top: -1px;
+	left: -1px;
+	width: calc(100% + 2px); 
+	height: calc(100% + 2px);
+	border-radius: 50%;
+	border: solid 10px #eb4141;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	max-width: 256px;
 }
-.news_day
+.pastors_item_image img
 {
-	font-size: 30px;
-	color: #FFFFFF;
-	line-height: 0.75;
+	max-width: 256px;
 }
-.news_month
+.pastors_item:hover .pastors_item_image::after
 {
-	font-size: 12px;
-	color: #FFFFFF;
-	line-height: 0.75;
-	margin-top: 10px;
+	visibility: visible;
+	opacity: 1;
 }
-.news_title
+.pastors_item_title
 {
-	font-size: 18px;
+	font-size: 24px;
 	color: #000000;
-	font-weight: 500;
-	margin-top: 38px;
+	margin-top: 40px;
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
 }
-.news_text
-{
-	margin-top: 18px;
-}
-.news_link
-{
-	margin-top: 18px;
-}
-.news_link a
+.pastors_item_text
 {
 	font-size: 14px;
-	color: #eb4141;
-	font-style: italic;
+	color: #7c7c7c;
 	font-weight: 500;
+	margin-top: 4px;
+	text-align: center;
 }
+.pastors_item:hover .pastors_item_title
+{
+	color: #eb4141;
+}
+/* .pastors_slider_nav
+{
+	position: absolute;
+	top: 99px;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	background: #cbcbcb;
+	cursor: pointer;
+}
+.pastors_slider_nav:hover
+{
+	background: #eb4141;
+}
+.pastors_slider_prev
+{
+	left: -95px;
+}
+.pastors_slider_next
+{
+	right: -95px;
+} */
 
 /*********************************
-12. Newsletter
+9. Newsletter
 *********************************/
 
 .newsletter
@@ -1187,7 +932,7 @@ section
 	right: 0;
 	width: 157px;
 	height: 47px;
-	background: #800000;
+	background: #000000;
 	color: #FFFFFF;
 	border: none;
 	outline: none;
@@ -1230,13 +975,13 @@ section
 }
 
 /*********************************
-13. Footer
+10. Footer
 *********************************/
 
 .footer
 {
 	width: 100%;
-	background: #800000;
+	background: #161619;
 	padding-top: 88px;
 }
 .footer .logo a span
@@ -1257,7 +1002,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #797979;
 	margin-top: -11px;
 	padding-left: 4px;
 }
@@ -1278,7 +1023,7 @@ section
 .footer_social ul li a i
 {
 	font-size: 17px;
-	color: #FFFFFF;
+	color: #eb4141;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1309,7 +1054,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: #FFFFFF;
+	background: #eb4141;
 	content: '';
 }
 .footer_links ul
@@ -1326,7 +1071,7 @@ section
 .footer_links ul li a
 {
 	font-size: 14px;
-	color: #ebe0e0;
+	color: #6b6b6b;
 	font-weight: 600;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1351,7 +1096,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #ebe0e0;
+	color: #6b6b6b;
 	line-height: 1.71;
 	margin-bottom: 17px;
 }
@@ -1362,7 +1107,7 @@ section
 .footer_contact ul li span
 {
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #eb4141;
 }
 .footer_contact_phone span
 {
@@ -1376,8 +1121,8 @@ section
 {
 	width: 100%;
 	height: 84px;
-	background: #800000;
-	color: #ebe0e0;
+	background: #0d0d0f;
+	color: #343439;
 	font-size: 12px;
 	font-weight: 600;
 	line-height: 84px;
