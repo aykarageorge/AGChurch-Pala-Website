@@ -693,15 +693,14 @@ section
 }
 .cross_1
 {
-	width: 89px;
-	height: 89px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
-	background: #eb4141;
 	margin: 0 auto;
 }
 .cross_1 img
 {
-	width: 44px !important;
+	width: 150px !important;
 }
 .home_slider_content h1
 {

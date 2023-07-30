@@ -15,7 +15,7 @@
     font-size: 14px;
     background-color: #fcfcfc;
     border-radius: 10% 10% 20% 20%;
-    margin-left: 10px;
+    justify-content: space-between;
   }
 
   .pastor-container {
@@ -45,4 +45,8 @@
     width: 300px;
     margin: auto;
   }
+}
+
+.blog_text pre {
+  white-space: pre-wrap;
 }

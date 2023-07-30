@@ -770,6 +770,13 @@ section
 	color: #000000;
 	margin-top: 31px;
 }
+.blog_subtitle
+{
+	font-size: 20px;
+	font-weight: 500;
+	color: #000000;
+	margin-top: 21px;
+}
 .blog_meta
 {
 	margin-top: 1px;
@@ -797,6 +804,7 @@ section
 .blog_text
 {
 	margin-top: 34px;
+	text-align: justify;
 }
 .blog_link
 {
