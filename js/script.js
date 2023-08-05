@@ -25,7 +25,7 @@ const data = {
 
 const siteKey = "6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5";
   
-const url = 'https://script.google.com/macros/s/AKfycbyOi1EM7FqpsPRErVPYN9oQtjFBsDx4g7VdVG3AlVOKR0zNXDm-mWm-2FLsWv5GNgHBzQ/exec';
+const url = 'https://script.google.com/macros/s/AKfycbxZedbeobTx3db-klngYKBqfBKSTgb40q4ch4MBkCT84-iW92duzKBlfYYfUHb4vdxb/exec';
 
  function handleSubmit(event) {
     event.preventDefault();
