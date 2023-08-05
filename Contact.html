@@ -18,6 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/contact.css">
 	<link rel="stylesheet" type="text/css" href="./css/contact_responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1115.0" data-gr-ext-installed="">
@@ -35,8 +36,8 @@
 								<div class="logo_container">
 									<div class="logo">
 										<a href="index.html#">
-											<span>Assemblies of God </span>
-											<img src="./assets/logo_large.png" alt="">
+											<img src="./assets/logo_large.png" alt="logo">
+											<span>Assemblies of God Church, Pala </span>
 										</a>
 									</div>
 								</div>
@@ -51,10 +52,8 @@
 												<div class="dropdown-menu">
 													<a class="dropdown-item" href="Our Church.html">Our Church</a>
 													<a class="dropdown-item" href="Pastors.html">Our Pastors</a>
-													<a class="dropdown-item" href="Sermons.html">Church Timings</a>
 													<!-- <div class="dropdown-divider"></div> -->
-													<a class="dropdown-item" href="Activities.html">Church
-														Activities</a>
+													<a class="dropdown-item" href="Activities.html">Church Services</a>
 													<a class="dropdown-item" href="Our-Belief.html">Our Beliefs</a>
 												</div>
 											</li>
@@ -108,9 +107,8 @@
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="Our Church.html">Our Church</a>
 								<a class="dropdown-item" href="Pastors.html">Our Pastors</a>
-								<a class="dropdown-item" href="Sermons.html">Church Timings</a>
 								<!-- <div class="dropdown-divider"></div> -->
-								<a class="dropdown-item" href="Activities.html">Church Activities</a>
+								<a class="dropdown-item" href="Activities.html">Church Services</a>
 								<a class="dropdown-item" href="Our-Belief.html">Our Beliefs</a>
 							</div>
 						</li>
@@ -184,7 +182,6 @@
 					<div class="col-lg-6 d-flex flex-column align-items-start justify-content-end">
 						<div class="row">
 							<div class="col-lg-12 contact_info_col">
-								<div class="contact_info_title">Assemblies of God Church, Pala</div>
 								<ul class="contact_info_list">
 									<li><span>Address: </span>Assemblies of God, Vaikom Road, Pala - 686575</li>
 									<li class="footer_contact_phone">
@@ -194,7 +191,7 @@
 											<div> +91 949 5316 982 (Br. Raju Philip)</div>
 										</div>
 									</li>
-									<li><span>Email: </span></li>
+									<li><span>Email: </span>agchurchpala2023@gmail.com</li>
 								</ul>
 							</div>
 							<!-- <div class="col-lg-6 contact_info_col">
@@ -211,13 +208,81 @@
                                     <li><span>Email: </span>yourmail@gmail.com</li>
                                 </ul>
                             </div> -->
+						<div class="donate">
+							<button type="button" class="btn btn-donate btn-lg btn-block trigger-btn" data-toggle="modal" href="#donateModal" ><i class="bi bi-cash-coin"></i> Donate</button>
+							<!-- Modal HTML -->
+							<div id="donateModal" class="modal fade">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title">Thank You for considering donating to Assemblies of God Church, Pala</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										<div class="modal-body text-center">
+											<p>Kindly use the below bank details for donating:</p>
+										</div>
+										<div class="modal-body">
+											<p>Account Number: 300 222 08490</p>
+											<p>IFSC code: SBIN0008657</p>
+											<p>Bank: State Bank Of India, Pala</p>
+										</div>
+										<div class="modal-footer text-center">
+											<button class="btn btn-success" data-dismiss="modal"><span>Welcome</span></button>
+										</div>
+									</div>
+								</div>
+							</div> 
+							<!-- Modal HTML -->
+						</div>
+
 						</div>
 					</div>
-
 					<div class="col-lg-6">
 						<div class="contact_info_image"><img src="./photos/IMG_20210411_102803.jpg" alt=""></div>
 					</div>
 				</div>
+
+				<div class="contact_info">
+					<div class="contact_title">Prayer Request</div>
+
+					<div class="container px-5 my-5">
+						<form id="prayerForm" action="">
+						  <div class="form-floating mb-3">
+							<label for="name">Name</label>
+							<input class="form-control" id="name" type="text" placeholder="Mark Sloan" data-sb-validations="required" />
+							<div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+						  </div>
+						  <div class="form-floating mb-3">
+							<label for="phone">Phone Number</label>
+							<input class="form-control" id="phone" type="phone" placeholder="8907xxxxxx" data-sb-validations="phone" />
+						  </div>
+						  <div class="form-floating mb-3">
+							<label for="emailAddress">Email Address</label>
+							<input class="form-control" id="email" type="email" placeholder="mark.sloan@gmail.com" data-sb-validations="email" />
+							<div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+						  </div>
+						  <div class="form-floating mb-3">
+							<label for="message">Prayer Request</label>
+							<textarea class="form-control" id="message" type="text" placeholder="Pray for us." style="height: 10rem;" data-sb-validations="required"></textarea>
+							<div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+						  </div>
+						  <div class="d-none" id="submitSuccessMessage">
+							<div class="text-center mb-3">
+							  <div class="fw-bolder">Prayer Request sent successful!</div>
+							</div>
+						  </div>
+						  <div class="d-none" id="submitErrorMessage">
+							<div class="text-center text-danger mb-3">Error sending message! Try again later.</div>
+						  </div>
+						  <div class="d-grid">
+							<button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+						  </div>
+						</form>
+					  </div>
+				</div>
+
 			</div>
 		</div>
 
@@ -230,8 +295,8 @@
 						<div class="logo_container">
 							<div class="logo">
 								<a href="index.html">
-									<span>Assemblies of God</span>
-									<img src="./assets/logo_large.jpg" alt="">
+									<span>Assemblies of God Church, Pala</span>
+									<img src="./assets/logo_large.png" alt="">
 								</a>
 							</div>
 							<div class="logo_subtitle">God Loves Us All</div>
@@ -249,7 +314,7 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 footer_col">
+					<div class="col-lg-3 footer_col">
 						<!-- <div class="footer_links">
 				<div class="footer_title">Useful Links</div>
 				<ul>
@@ -267,7 +332,7 @@
 				</div> -->
 					</div>
 
-					<div class="col-lg-3 footer_col">
+					<div class="col-lg-4 footer_col">
 						<div class="footer_contact">
 							<div class="footer_title">Contact Us</div>
 							<ul>
@@ -279,7 +344,7 @@
 										<div>+91 949 5316 982</div>
 									</div>
 								</li>
-								<li><span>Email: </span></li>
+								<li><span>Email: </span>agchurchpala2023@gmail.com</li>
 							</ul>
 						</div>
 					</div>
@@ -304,3 +369,4 @@
 <script src="./js/easing.js"></script>
 <script src="./js/parallax.min.js"></script>
 <script src="./js/custom.js"></script>
+<script src="./js/script.js"></script>

@@ -408,13 +408,14 @@ section
 
 .logo a span
 {
-	font-size: 24px;
+	font-size: 18px;
 	color: #353535;
+	vertical-align: middle;
 }
 .logo a img
 {
 	display: inline-block;
-	vertical-align: text-bottom;
+	vertical-align: middle;
 }
 
 /*********************************
@@ -986,7 +987,7 @@ section
 }
 .footer .logo a span
 {
-	font-size: 49px;
+	font-size: 35px;
 	color: #FFFFFF;
 }
 .footer .logo a img
@@ -997,13 +998,14 @@ section
 	-ms-transform: translateY(5px);
 	-o-transform: translateY(5px);
 	transform: translateY(5px);
+	vertical-align: bottom;
 }
 .logo_subtitle
 {
 	font-size: 14px;
 	font-weight: 500;
 	color: #797979;
-	margin-top: -11px;
+	/* margin-top: -11px; */
 	padding-left: 4px;
 }
 .footer_social
@@ -1086,7 +1088,7 @@ section
 .footer_contact
 {
 	width: 100%;
-	padding-top: 35px;
+	/* padding-top: 35px; */
 }
 .footer_contact ul
 {

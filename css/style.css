@@ -39,14 +39,29 @@
     margin: auto;
   }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px) {
 	
+  .logo a span {
+	font-size: 14px;
+}
+
   .modal-content {
     width: 300px;
     margin: auto;
   }
+
 }
 
 .blog_text pre {
   white-space: pre-wrap;
+}
+
+.donate {
+  margin: 20px;
+}
+
+.btn-donate {
+  background-color: #800000;
+  color: #fcfcfc;
+  font-weight: 600;
 }
