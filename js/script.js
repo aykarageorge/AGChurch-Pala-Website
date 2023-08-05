@@ -16,7 +16,7 @@ $(function() {
 // Prayer Request submit form
 
 const data = {
-    gCaptchaResponse: document.getElementById('g-recaptcha-response').value,
+    gCaptchaResponse: null,
     name: 'Mark Sloan',
     phone: '8091234567',
     email: 'john@domain.com',
