@@ -275,9 +275,9 @@
 						  <div class="d-none" id="submitErrorMessage">
 							<div class="text-center text-danger mb-3">Error sending message! Try again later.</div>
 						  </div>
-						  <div class="g-recaptcha" data-sitekey="6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5" data-callback='onSubmit' data-action='submit'></div>
+						  <div id="g-recaptcha" data-sitekey="6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5"></div>
 						  <div class="d-grid">
-							<button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" class="g-recaptcha" data-sitekey="6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5" data-callback='onSubmit' data-action='submit'>Submit</button>
+							<button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" data-action='submit'>Submit</button>
 						  </div>
 						</form>
 					  </div>
@@ -370,4 +370,4 @@
 <script src="./js/parallax.min.js"></script>
 <script src="./js/custom.js"></script>
 <script src="./js/script.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5" async defer></script>

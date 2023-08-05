@@ -63,23 +63,23 @@ const url = 'https://script.google.com/macros/s/AKfycbyOi1EM7FqpsPRErVPYN9oQtjFB
       grecaptcha
         .execute(siteKey, { action: "submit" })
         .then(function (token) {
-          // Add the reCAPTCHA token to the form data
-          const formData = new FormData(document.getElementById("prayerForm"));
-          formData.append("gCaptchaResponse", token);
+            // Add the reCAPTCHA token to the form data
+            data.gCaptchaResponse = document.getElementById('g-recaptcha').value;
+            data.name = document.getElementById("name").value;
+            data.phone = document.getElementById("phone").value;
+            data.email = document.getElementById("email").value;
+            data.message = document.getElementById("message").value;
 
-          // Replace the 'your-server-endpoint' with the actual URL where you handle the form submission on the server
           fetch(url, {
             method: "POST",
-            body: formData,
+            headers: {
+                'Content-Type': 'text/plain;charset=utf-8',
+            },
+            body: JSON.stringify(data),
           })
-            .then(function (response) {
-              // Handle the server response here (e.g., display a success message)
-              console.log("Form submitted successfully!");
-            })
-            .catch(function (error) {
-              // Handle errors here (e.g., display an error message)
-              console.error("Form submission failed:", error);
-            });
+          .then((res) => res.json())
+          .then((data) => console.log('data', data))
+          .catch((err) => console.log('err', err));
         });
     });
   }
