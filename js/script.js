@@ -64,7 +64,7 @@ const url = 'https://script.google.com/macros/s/AKfycbyOi1EM7FqpsPRErVPYN9oQtjFB
         .execute(siteKey, { action: "submit" })
         .then(function (token) {
             // Add the reCAPTCHA token to the form data
-            data.gCaptchaResponse = document.getElementById('g-recaptcha').value;
+            data.gCaptchaResponse = token;
             data.name = document.getElementById("name").value;
             data.phone = document.getElementById("phone").value;
             data.email = document.getElementById("email").value;
