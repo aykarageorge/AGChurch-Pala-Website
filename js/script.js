@@ -45,8 +45,7 @@ const url = 'https://script.google.com/macros/s/AKfycbyM5O1vyuoDfn257P0gMyrPSmmA
           fetch(url, {
             method: "POST",
             headers: {
-                'Content-Type': 'text/plain;charset=utf-8',
-                "Access-Control-Allow-Origin": "*"
+                'Content-Type': 'text/plain;charset=utf-8'
             },
             body: JSON.stringify(data),
           })
