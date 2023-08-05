@@ -16,19 +16,21 @@ $(function() {
 // Prayer Request submit form
 
 const data = {
+    gCaptchaResponse: document.getElementById('g-recaptcha-response').value,
     name: 'Mark Sloan',
     phone: '8091234567',
     email: 'john@domain.com',
     message: 'Pray for me',
   };
   
-const url = 'https://script.google.com/macros/s/AKfycbwKgxiriCqaLhkS97Dw2K8M2_EI50F5pnBgLyalfYxj6REOYtHx0aoiVtslq5bPXPIy6A/exec';
+const url = 'https://script.google.com/macros/s/AKfycbyOi1EM7FqpsPRErVPYN9oQtjFBsDx4g7VdVG3AlVOKR0zNXDm-mWm-2FLsWv5GNgHBzQ/exec';
 
 let loginForm = document.getElementById("prayerForm");
 
 loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
+    data.gCaptchaResponse = document.getElementById('g-recaptcha-response').value;
     data.name = document.getElementById("name");
     data.phone = document.getElementById("phone");
     data.email = document.getElementById("email");
