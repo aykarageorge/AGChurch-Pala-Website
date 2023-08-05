@@ -25,7 +25,7 @@ const data = {
 
 const siteKey = "6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5";
   
-const url = 'https://script.google.com/macros/s/AKfycbxZedbeobTx3db-klngYKBqfBKSTgb40q4ch4MBkCT84-iW92duzKBlfYYfUHb4vdxb/exec';
+const url = 'https://script.google.com/macros/s/AKfycbyM5O1vyuoDfn257P0gMyrPSmmALnQyIOjzbBBWQv0oYRGXDMNoL2c6HI5zQGXNJrqK/exec';
 
  function handleSubmit(event) {
     event.preventDefault();
@@ -46,6 +46,7 @@ const url = 'https://script.google.com/macros/s/AKfycbxZedbeobTx3db-klngYKBqfBKS
             method: "POST",
             headers: {
                 'Content-Type': 'text/plain;charset=utf-8',
+                "Access-Control-Allow-Origin": "*"
             },
             body: JSON.stringify(data),
           })
