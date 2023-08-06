@@ -27,7 +27,7 @@
   }
 
   .pastors_item {
-    max-width: 256px;
+    width: 400px;
     margin-top: 50px;
     margin-right: 0px; 
   }
@@ -65,3 +65,4 @@
   color: #fcfcfc;
   font-weight: 600;
 }
+

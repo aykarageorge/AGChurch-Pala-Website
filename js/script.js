@@ -29,7 +29,6 @@ const url = 'https://script.google.com/macros/s/AKfycbyM5O1vyuoDfn257P0gMyrPSmmA
 
  function handleSubmit(event) {
     event.preventDefault();
-
     // Make an API call to get the reCAPTCHA token
     grecaptcha.ready(function () {
       grecaptcha
@@ -50,10 +49,18 @@ const url = 'https://script.google.com/macros/s/AKfycbyM5O1vyuoDfn257P0gMyrPSmmA
             body: JSON.stringify(data),
           })
           .then((res) => res.json())
-          .then((data) => console.log('data', data))
+          .then((data) => {
+            console.log('data', data);
+            if (data['status'] == 'OK')
+                alert("Prayer request sent successfully.");
+            else
+                alert("Some issue occured and Prayer request couldn't be sent. Please try again later.");
+            return false;
+            })
           .catch((err) => console.log('err', err));
         });
     });
+    document.getElementById("prayerForm").reset();
   }
 
   document.getElementById("prayerForm").addEventListener("submit", handleSubmit);

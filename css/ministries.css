@@ -814,10 +814,10 @@ section
 }
 .pastors_item_image
 {
-	width: 215px;
-	height: 215px;
-	border-radius: 50%;
-	overflow: hidden;
+	width: 360px;
+	height: 360px;
+	/* border-radius: 50%; */
+	/* overflow: hidden; */
 }
 .pastors_item_image::after
 {
@@ -840,7 +840,7 @@ section
 }
 .pastors_item_image img
 {
-	max-width: 256px;
+	max-width: 400px;
 }
 .pastors_item:hover .pastors_item_image::after
 {
