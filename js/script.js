@@ -55,12 +55,12 @@ const url = 'https://script.google.com/macros/s/AKfycbyM5O1vyuoDfn257P0gMyrPSmmA
                 alert("Prayer request sent successfully.");
             else
                 alert("Some issue occured and Prayer request couldn't be sent. Please try again later.");
+            document.getElementById("prayerForm").reset();
             return false;
             })
           .catch((err) => console.log('err', err));
         });
     });
-    document.getElementById("prayerForm").reset();
   }
 
   document.getElementById("prayerForm").addEventListener("submit", handleSubmit);
