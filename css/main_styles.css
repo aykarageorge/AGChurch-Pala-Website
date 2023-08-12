@@ -53,7 +53,7 @@ body
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
-	color: #7c7c7c;
+	color: #555555;
 }
 div
 {
@@ -74,7 +74,7 @@ p
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 500;
-	color: #7c7c7c;
+	color: #555555;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -812,17 +812,16 @@ section
 {
 	width: 100%;
 	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column; /* Stack inner elements vertically */
+	align-items: center; /* Horizontally center inner elements */
+	text-align: center;
 }
 .services_image
 {
 	width: 48px;
 	height: 48px;
-	margin: 0 auto;
-}
-.services_image
-{
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
 }
 .services_title
 {
