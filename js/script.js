@@ -29,7 +29,7 @@ const url = 'https://script.google.com/macros/s/AKfycbyM5O1vyuoDfn257P0gMyrPSmmA
 
  function handleSubmit(event) {
   event.preventDefault();
-  if (!document.getElementById("name").value && !document.getElementById("message").value) {
+  if (!document.getElementById("name").value || !document.getElementById("message").value) {
     alert("Atleast provide Name and your Prayer Request before submitting.")
     return;
   }
