@@ -28,7 +28,11 @@ const siteKey = "6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5";
 const url = 'https://script.google.com/macros/s/AKfycbyM5O1vyuoDfn257P0gMyrPSmmALnQyIOjzbBBWQv0oYRGXDMNoL2c6HI5zQGXNJrqK/exec';
 
  function handleSubmit(event) {
-    event.preventDefault();
+  event.preventDefault();
+  if (!document.getElementById("name").value && !document.getElementById("message").value) {
+    alert("Atleast provide Name and your Prayer Request before submitting.")
+    return;
+  }
     // Make an API call to get the reCAPTCHA token
     grecaptcha.ready(function () {
       grecaptcha
