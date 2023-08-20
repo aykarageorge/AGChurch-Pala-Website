@@ -811,6 +811,7 @@ section
 .services_item
 {
 	width: 100%;
+	height: 100px;
 	margin-bottom: 60px;
 	display: flex;
 	flex-direction: column; /* Stack inner elements vertically */
@@ -826,7 +827,7 @@ section
 .services_title
 {
 	display: inline-block;
-	font-size: 18px;
+	font-size: 14px;
 	color: #FFFFFF;
 	margin-top: 18px;
 	-webkit-transition: all 200ms ease;
