@@ -197,11 +197,14 @@
 	.home_title
 	{
 		font-size: 24px;
+		line-height: 1;
+	
 	}
 	.breadcrumbs li,
 	.breadcrumbs li a
 	{
 		font-size: 12px;
+		line-height: 1.2;
 	}
 	.section_subtitle
 	{

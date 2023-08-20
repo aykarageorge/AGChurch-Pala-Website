@@ -1,9 +1,10 @@
 .responsive {
     width: 100%;
-    min-height: 200px;
+    min-height: 650px;
+    max-height: 650px;
     object-fit: cover;
     object-position: center;
-    filter: brightness(40%);
+    filter: brightness(70%);
   }
 
   .nav-link {
@@ -38,12 +39,37 @@
     max-height: 750px;
     margin: auto;
   }
+  
+@media only screen and (max-width: 1000px) {
 
-@media only screen and (max-width: 400px) {
+  .responsive {
+    width: 100%;
+    margin-top: 80px;
+    min-height: 350px;
+    max-height: 350px;
+  }
 	
-  .logo a span {
-	font-size: 14px;
+  .intro {
+    padding-top: 30px;
+  }
+
+	.intro_content {
+    margin-top: 20px;
+  }
 }
+
+@media only screen and (max-width: 500px) {
+  
+  .responsive {
+    width: 100%;
+    margin-top: 50px;;
+    min-height: 150px;
+    max-height: 150px;
+  }
+
+  .logo a span {
+    font-size: 14px;
+  }
 
   .modal-content {
     width: 300px;
@@ -68,6 +94,7 @@
 
 
 .pastor_name {
+  font-size: 16px;
   margin-top: 10px;
 }
 

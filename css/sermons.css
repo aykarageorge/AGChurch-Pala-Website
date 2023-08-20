@@ -693,10 +693,11 @@ section
 {
 	font-size: 30px;
 	color: #FFFFFF;
-	line-height: 0.75;
+	line-height: 1;
 }
 .breadcrumbs li
 {
+	line-height: 1.2;
 	display: inline-block;
 	position: relative;
 	font-size: 16px;
@@ -849,7 +850,7 @@ section
 .popular_item
 {
 	width: 100%;
-	margin-bottom: 98px;
+	margin-bottom: 28px;
 }
 .popular_image
 {

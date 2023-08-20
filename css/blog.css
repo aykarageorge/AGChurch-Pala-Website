@@ -692,10 +692,11 @@ section
 {
 	font-size: 30px;
 	color: #FFFFFF;
-	line-height: 0.75;
+	line-height: 1;
 }
 .breadcrumbs li
 {
+	line-height: 1.2;
 	display: inline-block;
 	position: relative;
 	font-size: 16px;
@@ -723,12 +724,12 @@ section
 .blog
 {
 	padding-top: 97px;
-	padding-bottom: 98px;
+	padding-bottom: 28px;
 	background: #FFFFFF;
 }
 .blog_post
 {
-	margin-bottom: 98px;
+	margin-bottom: 28px;
 }
 .blog_image_container
 {
