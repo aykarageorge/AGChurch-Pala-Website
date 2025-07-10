@@ -3,20 +3,18 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Downloads</title>
+	<title>Upcoming Events</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="description" content="Assemblies of God(AG Church) Pala" />
+	<meta name="description" content="Demo project" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css" />
 	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css" />
 	<link rel="stylesheet" type="text/css" href="./css/animate.css" />
-	<link rel="stylesheet" type="text/css" href="./css/main_styles.css" />
-	<link rel="stylesheet" type="text/css" href="./css/responsive.css" />
-	<link rel="stylesheet" type="text/css" href="./css/blog.css" />
-	<link rel="stylesheet" type="text/css" href="./css/blog_responsive.css" />
+	<link rel="stylesheet" type="text/css" href="./css/sermons.css" />
+	<link rel="stylesheet" type="text/css" href="./css/sermons_responsive.css" />
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
 
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -69,8 +67,8 @@
 														Missionary Council</a>
 												</div>
 											</li>
-											<li><a href="Upcoming-Events.html">Upcoming Events</a></li>
-											<li><a class="active" href="#">Downloads</a></li>
+											<li><a class="active" href="#">Upcoming Events</a></li>
+											<li><a href="Downloads.html">Downloads</a></li>
 											<li class="nav-item dropdown">
 												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
 													aria-haspopup="true" aria-expanded="false">Gallery</a>
@@ -122,8 +120,8 @@
 								<a class="dropdown-item" href="Women-Missionary.html">Women's Missionary Council</a>
 							</div>
 						</li>
-						<li><a href="Upcoming-Events.html">Upcoming Events</a></li>
-						<li><a class="active" href="#">Downloads</a></li>
+						<li><a class="active" href="#">Upcoming Events</a></li>
+						<li><a href="Downloads.html">Downloads</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
 								aria-haspopup="true" aria-expanded="false">Gallery</a>
@@ -148,13 +146,7 @@
 					<div class="col">
 						<div class="home_container">
 							<div class="home_content d-flex flex-row align-items-center justify-content-start">
-								<div class="home_title">Downloads</div>
-								<!-- <div class="home_breadcrumbs ml-auto">
-                                        <ul class="breadcrumbs">
-                                            <li><a href="index.html">Downloads</a></li>
-                                            <li>Sunday School</li>
-                                        </ul>
-                                    </div> -->
+								<div class="home_title">Upcoming Events</div>
 							</div>
 						</div>
 					</div>
@@ -162,127 +154,232 @@
 			</div>
 		</div>
 
-<!-- Forms -->
-		<div class="news">
+		<div class="sermon">
+			<div class="sermon_background" style="background-image: url(assets/sermon.png);"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<!-- <div class="section_title_container">
+							<div class="section_image"><img src="./assets/church_3.png" alt="" /></div>
+							<div class="section_title">
+								<h2>Events</h2>
+							</div>
+							<div class="section_subtitle">God loves us all</div>
+						</div> -->
+					</div>
+				</div>
+
+				<div class="row sermon_row">
+					<div class="col-lg-6">
+						<div class="sermon_image"><img style="max-height: 700px;" src="./photos/PHOTO-2025-07-04-20-04-18.jpg" alt="" /></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title"><a href="#">Youth Fellowship & Training Program 2025</a></div>
+							<div class="sermon_text">
+								<p>
+									Empowering our youth through fellowship and spiritual training.
+								</p>
+								<p>
+									Join us for an enriching experience of worship, learning, and community building.
+								</p>
+								<p>
+									For more details contact the church office: <a href="tel:9847207259">9847207259</a>, <a href="tel:9495316982">9495316982</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row sermon_row">
+					<div class="col-lg-6">
+						<div class="sermon_image"><img style="max-height: 700px;" src="./photos/PHOTO-2025-07-04-20-07-04.jpg" alt="" /></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title"><a href="#">Special Ministry Program 2025</a></div>
+							<div class="sermon_text">
+								<p>
+									Join us for a special ministry program focused on spiritual growth and community outreach.
+								</p>
+								<p>
+									An inspiring event bringing together our congregation for worship, fellowship, and service.
+								</p>
+								<p>
+									For more information and registration: <a href="tel:9847207259">9847207259</a>, <a href="tel:9495316982">9495316982</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row sermon_row">
+					<div class="col-lg-6">
+						<div class="sermon_image"><img style="max-height: 700px;" src="./photos/mega bible quiz.jpg" alt="" /></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title"><a href="#">Mega Bible Quiz 2023</a></div>
+							<div class="sermon_text">
+								<p>
+									Register before Aug 13.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row sermon_row">
+					<div class="col-lg-6">
+						<div class="sermon_image"><img style="max-height: 700px;" src="./photos/youth camp.jpg" alt="" /></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title"><a href="#">Christ's Ambassadors Youth Camp 2023</a></div>
+							<div class="sermon_text">
+								<p>
+									Theme: Direct your hearts to the Lord.
+								</p>
+								<p>
+									Aug 29, 30, 31, Sep 1
+								</p>
+								<p>
+									For more details contact: <a href="tel:9446442772">9446442772</a>, <a href="tel:8921068956">8921068956</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row sermon_row">
+					<div class="col-lg-6">
+						<div class="sermon_image"><img style="max-height: 700px;" src="./photos/bible quiz.jpg" alt="" /></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title"><a href="#">Bible Quiz 2023</a></div>
+							<div class="sermon_text">
+								<p>
+									Study. Grow. Compete.
+								</p>
+								<p>
+									September 12, 2023 (Sunday) from 2:30 PM to 4:00 PM.
+								</p>
+								<p>
+									For more details contact: <a href="tel:9446483577">9446483577</a>, <a href="tel:6235117551">6235117551</a>, <a href="tel:9446757221">9446757221</a>, <a href="tel:9495725981">9495725981</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row sermon_row">
+					<div class="col-lg-6">
+						<div class="sermon_image"><img style="max-height: 700px;" src="./photos/PHOTO-2023-07-30-21-30-54.jpg" alt="" /></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title"><a href="#">Youth Camp 2023</a></div>
+							<div class="sermon_text">
+								<p>
+									Assemblies of God Malayalam District Council Chirsts Ambassadors.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="row sermon_row">
+					<div class="col-lg-6">
+						<div class="sermon_image"><img src="./assets/popular_1.jpg" alt="" /></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title"><a href="#">Receive The Holy Spirit By Jesus Christ</a></div>
+							<ul class="sermon_list">
+								<li>Sermon by: <a href="#">-</a></li>
+								<li>Categories: <a href="#">Holy Service</a>
+								<li>Date: <a href="#">11 Sept, 2023</a></li>
+							</ul>
+							<div class="sermon_text">
+								<p>
+									Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst.
+									Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu
+									varius ac. Etiam cursus turpis lectus, id
+									iaculis risus tempor id. Phasellus fringilla nisl sed sem scelerisque, eget aliquam
+									magna vehicula.nteger nec bibendum lacus.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+
+
+		</div>
+
+		<!-- <div class="popular">
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container">
 							<div class="section_title">
-								<h2>Forms</h2>
+								<h2>Other Sermons</h2>
 							</div>
+							<div class="section_subtitle">God loves us all</div>
 						</div>
 					</div>
 				</div>
-
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288479-Application for add Name in Church Register 8-_ 0 _8M1M11_} _G0M  G0M M A(M($_(A3M3  _G M7.pdf'></iframe>
-								<div class="news_title">സഭാ രജിസ്റ്ററിൽ പേര് ചേർക്കുന്നതിനുള്ള അപേക്ഷ</div>
-								<div class="news_text">
-									<a href="downloads/1686288479-Application for add Name in Church Register 8-_ 0 _8M1M11_} _G0M  G0M M A(M($_(A3M3  _G M7.pdf" target=_blank download="Application for add Name in Church Register">Download</a>
+				<div class="row popular_row">
+					<div class="col-lg-6">
+						<div class="popular_item">
+							<div class="popular_image"><img src="./assets/popular_1.jpg" /></div>
+							<div class="sermon_content">
+								<div class="sermon_title"><a href="#">Receive The Holy Spirit By Jesus Christ</a></div>
+								<ul class="sermon_list">
+									<li>Sermon by: <a href="#">-</a></li>
+									<li>Categories: <a href="#">Saturday Service</a>
+									<li>Date: <a href="#">Every Saturday</a></li>
+								</ul>
+								<div class="sermon_text">
+									<p>
+										Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst.
+										Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu
+										varius ac. Etiam cursus turpis lectus,
+										id iaculis risus tempor id. Phasellus fringilla nisl sed sem scelerisque, eget
+										aliquam magna vehicula.nteger nec bibendum lacus.
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288418-Vivaaha Nishchaya Rekha 5_5_9 (_6M _ 0G   (1).pdf'></iframe>
-								<div class="news_title">വിവാഹ നിശ്ചയ രേഖ</div>
-								<div class="news_text">
-									<a href="downloads/1686288418-Vivaaha Nishchaya Rekha 5_5_9 (_6M _ 0G   (1).pdf" target=_blank download="Engagement Form">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288373-Marriage Application Form (3).pdf'></iframe>
-								<div class="news_title">വിവാഹ അപേക്ഷാ പത്രം</div>
-								<div class="news_text">
-									<a href="downloads/1686288373-Marriage Application Form (3).pdf" target=_blank download="Marriage Application Form">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-<!-- Certificates -->
-		<div class="news">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="section_title_container">
-							<div class="section_title">
-								<h2>Certificates</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288095-Church Membership Certificate 8-_ .F (1) (1).pdf'></iframe>
-								<div class="news_title">Church Membership Certificate</div>
-								<div class="news_text">
-									<a href="downloads/1686288095-Church Membership Certificate 8-_ .F (1) (1).pdf" target=_blank download="Church Membership Certificate">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686287940-Birth Certificate  (( 8_ M _+_ M 1M1M (1).pdf'></iframe>
-								<div class="news_title">Birth Certificate</div>
-								<div class="news_text">
-									<a href="downloads/1686287940-Birth Certificate  (( 8_ M _+_ M 1M1M (1).pdf" target=_blank download="Birth Certificate">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288186-Marriage Certificate (1).pdf'></iframe>
-								<div class="news_title">Certificate of Marriage</div>
-								<div class="news_text">
-									<a href="downloads/1686288186-Marriage Certificate (1).pdf" target=_blank download="Certificate of Marriage">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288020-Certificate of Baptism 8M(_( 8_ M _+_ M 1M1M (1).pdf'></iframe>
-								<div class="news_title">Certificate of Baptism</div>
-								<div class="news_text">
-									<a href="downloads/1686288020-Certificate of Baptism 8M(_( 8_ M _+_ M 1M1M (1).pdf" target=_blank download="Certificate of Baptism">Download</a>
+					<div class="col-lg-6">
+						<div class="popular_item">
+							<div class="popular_image"><img src="./assets/popular_2.jpg" /></div>
+							<div class="sermon_content">
+								<div class="sermon_title"><a href="#">Receive The Holy Spirit By Jesus Christ</a></div>
+								<ul class="sermon_list">
+									<li>Sermon by: <a href="#">-</a></li>
+									<li>Categories: <a href="#">Friday Service</a></li>
+									<li>Date: <a href="#">Every Friday</a></li>
+								</ul>
+								<div class="sermon_text">
+									<p>
+										Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst.
+										Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu
+										varius ac. Etiam cursus turpis lectus,
+										id iaculis risus tempor id. Phasellus fringilla nisl sed sem scelerisque, eget
+										aliquam magna vehicula.nteger nec bibendum lacus.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -290,8 +387,7 @@
 
 				</div>
 			</div>
-		</div>
-
+		</div> -->
 
 		<footer class="footer">
 			<div class="container">
@@ -317,21 +413,6 @@
 					</div>
 
 					<div class="col-lg-3 footer_col">
-						<!-- <div class="footer_links">
-		<div class="footer_title">Useful Links</div>
-		<ul>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html">Home</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Donations</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/sermons.html">Sermons</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Causes</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Quotes</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/blog.html">News</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Event List</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/ministries.html">Ministries</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Priests</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/contact.html">Contact</a></li>
-		</ul>
-		</div> -->
 					</div>
 
 					<div class="col-lg-4 footer_col">
@@ -357,7 +438,6 @@
 			</div>
 		</footer>
 	</div>
-<script src="./js/enhancements.js"></script>
 </body>
 
 </html>
@@ -365,7 +445,7 @@
 <script src="./js/jquery-3.2.1.min.js"></script>
 <script src="./js/popper.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/owl.carousel.js"></script>
 <script src="./js/easing.js"></script>
 <script src="./js/parallax.min.js"></script>
-<script src="./js/blog_custom.js"></script>
-<script src="./js/script.js"></script>
+<script src="./js/sermons_custom.js"></script>

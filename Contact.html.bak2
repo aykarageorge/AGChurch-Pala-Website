@@ -3,22 +3,21 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Christ’s Ambassadors (CA)</title>
+	<title>Contact Us</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Demo project">
+	<meta name="description" content="Assemblies of God(AG Church) Pala">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="./css/animate.css">
-	<link rel="stylesheet" type="text/css" href="./css/blog.css">
-	<link rel="stylesheet" type="text/css" href="./css/blog_responsive.css">
 	<link rel="stylesheet" type="text/css" href="./css/main_styles.css">
-	<link rel="stylesheet" type="text/css" href="./css/sermons.css" />
-	<link rel="stylesheet" type="text/css" href="./css/sermons_responsive.css" />
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/contact.css">
+	<link rel="stylesheet" type="text/css" href="./css/contact_responsive.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -28,7 +27,8 @@
 <link rel="stylesheet" type="text/css" href="./css/enhancements.css">
 </head>
 
-<body>
+<body data-new-gr-c-s-check-loaded="14.1115.0" data-gr-ext-installed="">
+
 	<div class="super_container">
 
 		<header class="header">
@@ -67,8 +67,8 @@
 												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
 													aria-haspopup="true" aria-expanded="false">Departments</a>
 												<div class="dropdown-menu">
-													<a class="active" class="dropdown-item" href="#">Christ’s
-														Ambassadors (CA)</a>
+													<a class="dropdown-item" href="CA.html">Christ’s Ambassadors
+														(CA)</a>
 													<a class="dropdown-item" href="Sunday-School.html">Sunday School</a>
 													<a class="dropdown-item" href="Women-Missionary.html">Women's
 														Missionary Council</a>
@@ -85,7 +85,7 @@
 													<a class="dropdown-item" href="Sermons.html">Sermons</a>
 												</div>
 											</li>
-											<li><a href="Contact.html">Contact Us</a></li>
+											<li><a class="active" href="#">Contact Us</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -122,7 +122,7 @@
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
 								aria-haspopup="true" aria-expanded="false">Departments</a>
 							<div class="dropdown-menu">
-								<a class="active" class="dropdown-item" href="#">Christ’s Ambassadors (CA)</a>
+								<a class="dropdown-item" href="CA.html">Christ’s Ambassadors (CA)</a>
 								<a class="dropdown-item" href="Sunday-School.html">Sunday School</a>
 								<a class="dropdown-item" href="Women-Missionary.html">Women's Missionary Council</a>
 							</div>
@@ -135,7 +135,7 @@
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="Photos.html">Photos</a>
 								<a class="dropdown-item" href="Videos.html">Videos</a>
-								<a class="dropdown-item" href="Sermons.html">Sermons</a>
+								<a class="active" class="dropdown-item" href="Sermons.html">Sermons</a>
 							</div>
 						</li>
 						<li><a href="Contact.html">Contact Us</a></li>
@@ -146,20 +146,21 @@
 		</div>
 
 		<div class="home">
-			<div class="home_background parallax-window" data-parallax="scroll" data-image-src="assets/banner-parallax.jpg"
-				data-speed="0.8"></div>
+			<div class="home_background parallax-window" data-parallax="scroll" data-speed="0.8"
+				style="background-size: cover; background-position: center center; background-image: url(&quot;assets/banner-parallax.jpg&quot;);">
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="home_container">
 							<div class="home_content d-flex flex-row align-items-center justify-content-start">
-								<div class="home_title">Christ’s Ambassadors (CA)</div>
-								<div class="home_breadcrumbs ml-auto">
-									<ul class="breadcrumbs">
-										<li><a href="index.html">Departments</a></li>
-										<li>Christ’s Ambassadors (CA)</li>
-									</ul>
-								</div>
+								<div class="home_title">Contact Us</div>
+								<!-- <div class="home_breadcrumbs ml-auto">
+                                    <ul class="breadcrumbs">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li>Contact Us</li>
+                                    </ul>
+                                </div> -->
 							</div>
 						</div>
 					</div>
@@ -167,42 +168,116 @@
 			</div>
 		</div>
 
-		<div class="blog">
+		<div>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.6242630821134!2d76.66465479678955!3d9.713073900000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cdf35c93257f%3A0xcc823886ba81cd6d!2sAssemblies%20of%20God(AG%20Church)!5e0!3m2!1sen!2sin!4v1690011702342!5m2!1sen!2sin"
+				width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+
+		<div class="contact_info">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
-						<div class="blog_content">
-							<div class="blog_post">
-								<div class="blog_text">
-									<p>The CA has been established to encourage wholistic development of youths so that they will be able to effectively witness the gospel of Jesus Christ among young people. It also promotes development of God given talents among youths so that they can contribute to the establishment of the Kingdom of God. A CA Committee comprising a President, Secretary and Treasurer will systematically organise the activities of this department. Programs like group and solo songs , song reference, bible reference, bible quiz, action songs, bible messages, special programs , etc were organised by the CA programs each month.</p>
-									<p>Timing: 11:30 AM to 1 PM, third Sunday of every month</p>
-									<p>Venue: AG Church hall, Pala</p>
-									<div class="container" style="margin-top: 20px;">
-										<div class="row">
-											<div class="col-md-4 text-center">
-												<div class="popular_item text-center">
-													<div class="pastor_image"><img class="img-fluid rounded" src="./photos/KP Cherian-head.png" /></div>
-													<div class="pastor_name">President: <span>Pr. K. P Cherian</span></div>
-												</div>
-											</div>
-											<div class="col-md-4 text-center">
-												<div class="popular_item text-center">
-													<div class="pastor_image"><img class="img-fluid rounded" src="./photos/CA Secretary- Sr. Jeni Paul.jpg" /></div>
-													<div class="pastor_name">Secretary: <span>Sis. Jeni Paul</span></div>
-												</div>
-											</div>
-											<div class="col-md-4 text-center">
-												<div class="popular_item text-center">
-													<div class="pastor_image"><img class="img-fluid rounded" src="./photos/CA Treasurer - Sr Liby Babu.jpg" /></div>
-													<div class="pastor_name">Treasurer: <span>Sis. Liby Babu</span></div>
-												</div>
-											</div>
+					<div class="col">
+						<div class="contact_title">Contact Info</div>
+					</div>
+				</div>
+				<div class="row contact_info_row row-eq-height">
+
+					<div class="col-lg-7 d-flex flex-column align-items-start justify-content-end">
+						<div class="row">
+							<div class="col-lg-12 contact_info_col">
+								<ul class="contact_info_list">
+									<li><span>Address: </span>Assemblies of God Church, Kottaramattom-Vaikom road, Pala P.O, Pala 686575</li>
+									<li class="footer_contact_phone">
+										<span>Phone: </span>
+										<div>
+											<div> +91 984 7207 259 (Pastor K P Cherian)</div>
+											<div> +91 949 5316 982 (Br. Raju Philip)</div>
+										</div>
+									</li>
+									<li><span>Email: </span>agchurchpala2023@gmail.com</li>
+								</ul>
+							</div>
+							<!-- <div class="col-lg-6 contact_info_col">
+                                <div class="contact_info_title">San Francisco Church</div>
+                                <ul class="contact_info_list">
+                                    <li><span>Address: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
+                                    <li class="footer_contact_phone">
+                                        <span>Phone: </span>
+                                        <div>
+                                            <div> +53 345 7953 32453</div>
+                                            <div> +53 345 7557 822112</div>
+                                        </div>
+                                    </li>
+                                    <li><span>Email: </span>yourmail@gmail.com</li>
+                                </ul>
+                            </div> -->
+						<div class="donate">
+							<button type="button" class="btn btn-donate btn-lg btn-block trigger-btn" data-toggle="modal" href="#donateModal" ><i class="bi bi-cash-coin"></i> Donate</button>
+							<!-- Modal HTML -->
+							<div id="donateModal" class="modal fade">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title">Thank You for considering donating to Assemblies of God Church, Pala</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										<div class="modal-body text-center">
+											<p>Kindly use the below bank details for donating:</p>
+										</div>
+										<div class="modal-body">
+											<p>Account Number: 300 222 08490</p>
+											<p>IFSC code: SBIN0008657</p>
+											<p>Bank: State Bank Of India, Pala</p>
+										</div>
+										<div class="modal-footer text-center">
+											<button class="btn btn-success" data-dismiss="modal"><span>Welcome</span></button>
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> 
+							<!-- Modal HTML -->
+						</div>
+
 						</div>
 					</div>
+					<div class="col-lg-5	">
+						<div class="contact_info_image"><img src="./photos/IMG_20210411_102803.jpg" alt=""></div>
+					</div>
+				</div>
+
+				<div class="contact_info">
+					<div class="contact_title">Prayer Request</div>
+
+					<div class="container px-5 my-5">
+						<form id="prayerForm" action="">
+						  <div class="form-floating mb-3">
+							<label for="name">Name</label>
+							<input class="form-control" id="name" type="text" placeholder="Mark Sloan" data-sb-validations="required" />
+							<div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+						  </div>
+						  <div class="form-floating mb-3">
+							<label for="phone">Phone Number</label>
+							<input class="form-control" id="phone" type="phone" placeholder="8907xxxxxx" data-sb-validations="phone" />
+						  </div>
+						  <div class="form-floating mb-3">
+							<label for="emailAddress">Email Address</label>
+							<input class="form-control" id="email" type="email" placeholder="mark.sloan@gmail.com" data-sb-validations="email" />
+							<div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+						  </div>
+						  <div class="form-floating mb-3">
+							<label for="message">Prayer Request</label>
+							<textarea class="form-control" id="message" type="text" placeholder="Pray for us." style="height: 10rem;" data-sb-validations="required"></textarea>
+							<div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+						  </div>
+						  <div class="d-grid">
+							<button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" data-action='submit'>Submit</button>
+						  </div>
+						</form>
+					  </div>
 				</div>
 			</div>
 		</div>
@@ -214,8 +289,8 @@
 				<div class="row quote_row">
 					<div class="col text-center">
 						<div class="quote_char"><img src="./assets/quote_char.png" alt=""></div>
-						<div class="quote_text">But the hour is coming, and now is, when the true worshipers will worship the Father in spirit and truth; for the Father is seeking such to worship Him.</div>
-						<div class="quote_source">John 4:23 NKJV</div>
+						<div class="quote_text">Oh come, let us worship and bow down; Let us kneel before the LORD our Maker. For He is our God, And we are the people of His pasture, And the sheep of His hand.</div>
+						<div class="quote_source">Psalms 95:6-7 NKJV</div>
 					</div>
 				</div>
 			</div>
@@ -238,9 +313,12 @@
 						</div>
 						<div class="footer_social">
 							<ul>
-								<li><a href="https://youtube.com/@agchurchpala2023" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-								<li><a href="https://www.instagram.com/agmdcofficialmedia/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="https://www.facebook.com/agmdcofficial" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://youtube.com/@agchurchpala2023"><i class="fa fa-youtube"
+											aria-hidden="true"></i></a></li>
+								<li><a href="https://www.instagram.com/agmdcofficialmedia/"><i class="fa fa-instagram"
+											aria-hidden="true"></i></a></li>
+								<li><a href="https://www.facebook.com/agmdcofficial"><i class="fa fa-facebook"
+											aria-hidden="true"></i></a></li>
 								<!-- <li><a href="https://preview.colorlib.com/theme/church/index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
 							</ul>
 						</div>
@@ -290,7 +368,6 @@
 		</footer>
 	</div>
 
-<script src="./js/enhancements.js"></script>
 </body>
 
 </html>
@@ -301,4 +378,8 @@
 <script src="./js/owl.carousel.js"></script>
 <script src="./js/easing.js"></script>
 <script src="./js/parallax.min.js"></script>
-<script src="./js/ministries_custom.js"></script>
+<script src="./js/custom.js"></script>
+<script src="./js/script.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5" async defer></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>

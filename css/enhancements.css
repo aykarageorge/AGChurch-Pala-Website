@@ -1,0 +1,345 @@
+/* Enhanced UX Improvements */
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #d4a574;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.scroll-to-top:hover {
+    background: #c89960;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+}
+
+.scroll-to-top.show {
+    display: flex;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading Spinner */
+.page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease;
+}
+
+.page-loader.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loader-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #d4a574;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Enhanced Hover Effects */
+.btn, .dropdown-item, .nav-link {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card, .popular_item, .ministries_item, .pastors_item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover, .popular_item:hover, .ministries_item:hover, .pastors_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery Image Hover Effects */
+.gallery_item img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.gallery_item:hover img {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* Photo Lightbox Styles */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.lightbox-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.lightbox img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.lightbox-close:hover {
+    color: #d4a574;
+}
+
+/* Fade-in Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Enhanced Typography */
+.section_title h2 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section_title h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(45deg, #d4a574, #c89960);
+    border-radius: 2px;
+}
+
+/* Social Media Hover Effects */
+.footer_social a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer_social a:hover {
+    transform: scale(1.2);
+    color: #d4a574;
+}
+
+/* Quick Contact Widget */
+.quick-contact {
+    position: fixed;
+    left: 30px;
+    bottom: 100px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quick-contact a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+.quick-contact .phone-btn {
+    background: #25d366;
+}
+
+.quick-contact .email-btn {
+    background: #ea4335;
+}
+
+.quick-contact .location-btn {
+    background: #4285f4;
+}
+
+.quick-contact a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+    }
+    
+    .lightbox-close {
+        top: 10px;
+        right: 15px;
+        font-size: 30px;
+    }
+    
+    .quick-contact {
+        left: 20px;
+        bottom: 80px;
+    }
+    
+    .quick-contact a {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+/* Enhanced Navigation - Disabled to prevent visual issues */
+/* 
+.main_nav ul li a {
+    position: relative;
+    overflow: hidden;
+}
+
+.main_nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: #d4a574;
+    transition: left 0.3s ease;
+}
+
+.main_nav ul li a:hover::before,
+.main_nav ul li a.active::before {
+    left: 0;
+}
+*/
+
+/* Improved Navigation without underlines */
+.main_nav ul li a {
+    transition: color 0.3s ease;
+    text-decoration: none !important;
+}
+
+.main_nav ul li a:hover {
+    color: #d4a574 !important;
+    text-decoration: none !important;
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none !important;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    color: #d4a574 !important;
+    text-decoration: none !important;
+}
+
+/* Fix any remaining navigation issues */
+.header_nav_container a,
+.menu_nav a,
+.main_nav a,
+.dropdown-menu a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.header_nav_container a:hover,
+.menu_nav a:hover,
+.main_nav a:hover,
+.dropdown-menu a:hover {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+/* Remove any Bootstrap default underlines */
+.nav-link {
+    text-decoration: none !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: none !important;
+}
+
+/* Gallery Grid Improvements */
+.photos_gallery .row {
+    margin: 0 -5px;
+}
+
+.photos_gallery .col-xl-2,
+.photos_gallery .col-lg-3,
+.photos_gallery .col-md-4,
+.photos_gallery .col-6 {
+    padding: 5px;
+}
+
+.gallery_item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

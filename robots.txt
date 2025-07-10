@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://agchurchpala.github.io/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Disallow certain directories if needed
+Disallow: /downloads/
+Disallow: /*.pdf$

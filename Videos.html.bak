@@ -2,38 +2,40 @@
 <html lang="en">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Downloads</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Videos</title>
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="description" content="Assemblies of God(AG Church) Pala" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Demo project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css" />
-	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css" />
-	<link rel="stylesheet" type="text/css" href="./css/animate.css" />
-	<link rel="stylesheet" type="text/css" href="./css/main_styles.css" />
-	<link rel="stylesheet" type="text/css" href="./css/responsive.css" />
-	<link rel="stylesheet" type="text/css" href="./css/blog.css" />
-	<link rel="stylesheet" type="text/css" href="./css/blog_responsive.css" />
-	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css">
+	<link rel="stylesheet" type="text/css" href="./css/ministries.css">
+	<link rel="stylesheet" type="text/css" href="./css/ministries_responsive.css">
+	<link rel="stylesheet" type="text/css" href="./css/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="favicon_io/site.webmanifest">
-<link rel="stylesheet" type="text/css" href="./css/enhancements.css">
 </head>
 
 <body>
 	<div class="super_container">
+
 		<header class="header">
+
 			<div class="header_container">
 				<div class="container">
 					<div class="row">
 						<div class="col">
 							<div class="header_content d-flex flex-row align-items-center justify-content-start">
+
 								<div class="logo_container">
 									<div class="logo">
 										<a href="index.html#">
@@ -70,13 +72,13 @@
 												</div>
 											</li>
 											<li><a href="Upcoming-Events.html">Upcoming Events</a></li>
-											<li><a class="active" href="#">Downloads</a></li>
+											<li><a href="Downloads.html">Downloads</a></li>
 											<li class="nav-item dropdown">
 												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
 													aria-haspopup="true" aria-expanded="false">Gallery</a>
 												<div class="dropdown-menu">
 													<a class="dropdown-item" href="Photos.html">Photos</a>
-													<a class="dropdown-item" href="Videos.html">Videos</a>
+													<a class="active" class="dropdown-item" href="#">Videos</a>
 													<a class="dropdown-item" href="Sermons.html">Sermons</a>
 												</div>
 											</li>
@@ -94,11 +96,11 @@
 			</div>
 		</header>
 
+
 		<div class="menu d-flex flex-column align-items-center justify-content-center">
 			<div class="menu_content">
 				<div class="d-flex flex-column align-items-center justify-content-center"><img
 					src="assets/logo_large.png" alt=""></div>
-
 				<nav class="menu_nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -123,13 +125,13 @@
 							</div>
 						</li>
 						<li><a href="Upcoming-Events.html">Upcoming Events</a></li>
-						<li><a class="active" href="#">Downloads</a></li>
+						<li><a href="Downloads.html">Downloads</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
 								aria-haspopup="true" aria-expanded="false">Gallery</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="Photos.html">Photos</a>
-								<a class="dropdown-item" href="Videos.html">Videos</a>
+								<a class="active" class="dropdown-item" href="#">Videos</a>
 								<a class="dropdown-item" href="Sermons.html">Sermons</a>
 							</div>
 						</li>
@@ -148,13 +150,13 @@
 					<div class="col">
 						<div class="home_container">
 							<div class="home_content d-flex flex-row align-items-center justify-content-start">
-								<div class="home_title">Downloads</div>
-								<!-- <div class="home_breadcrumbs ml-auto">
-                                        <ul class="breadcrumbs">
-                                            <li><a href="index.html">Downloads</a></li>
-                                            <li>Sunday School</li>
-                                        </ul>
-                                    </div> -->
+								<div class="home_title">Videos</div>
+								<div class="home_breadcrumbs ml-auto">
+									<ul class="breadcrumbs">
+										<li><a href="index.html">Gallery</a></li>
+										<li>Videos</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -162,146 +164,64 @@
 			</div>
 		</div>
 
-<!-- Forms -->
-		<div class="news">
+		<div class="ministries" style="padding-bottom: 98px;">
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container">
+							<!-- <div class="section_image"><img src="./assets/church_1.png" alt=""></div> -->
 							<div class="section_title">
-								<h2>Forms</h2>
+								<h2>Videos</h2>
 							</div>
+							<div class="section_subtitle">God loves us all</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288479-Application for add Name in Church Register 8-_ 0 _8M1M11_} _G0M  G0M M A(M($_(A3M3  _G M7.pdf'></iframe>
-								<div class="news_title">സഭാ രജിസ്റ്ററിൽ പേര് ചേർക്കുന്നതിനുള്ള അപേക്ഷ</div>
-								<div class="news_text">
-									<a href="downloads/1686288479-Application for add Name in Church Register 8-_ 0 _8M1M11_} _G0M  G0M M A(M($_(A3M3  _G M7.pdf" target=_blank download="Application for add Name in Church Register">Download</a>
-								</div>
-							</div>
-						</div>
+				<div class="row ministries_row">
+					<div class="col-xl-6 col-md-6 embed-responsive embed-responsive-21by9">
+						<iframe class="embed-responsive-item" style="margin: 1em;" width="560" height="315" src="https://www.youtube.com/embed/YacqzZrsccU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
 
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288418-Vivaaha Nishchaya Rekha 5_5_9 (_6M _ 0G   (1).pdf'></iframe>
-								<div class="news_title">വിവാഹ നിശ്ചയ രേഖ</div>
-								<div class="news_text">
-									<a href="downloads/1686288418-Vivaaha Nishchaya Rekha 5_5_9 (_6M _ 0G   (1).pdf" target=_blank download="Engagement Form">Download</a>
-								</div>
-							</div>
-						</div>
+					<div class="col-xl-6 col-md-6 embed-responsive embed-responsive-21by9">
+						<iframe class="embed-responsive-item" style="margin: 1em;" width="560" height="315" src="https://www.youtube.com/embed/j_AFD7btRRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+
+					<div class="col-xl-6 col-md-6 embed-responsive embed-responsive-21by9">
+						<iframe class="embed-responsive-item" style="margin: 1em;" width="560" height="315" src="https://www.youtube.com/embed/8uOvEqwZq3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+
+					<div class="col-xl-6 col-md-6 embed-responsive embed-responsive-21by9">
+						<iframe class="embed-responsive-item" style="margin: 1em;" width="560" height="315" src="https://www.youtube.com/embed/KKwulLjY8sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
 
 				</div>
-
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288373-Marriage Application Form (3).pdf'></iframe>
-								<div class="news_title">വിവാഹ അപേക്ഷാ പത്രം</div>
-								<div class="news_text">
-									<a href="downloads/1686288373-Marriage Application Form (3).pdf" target=_blank download="Marriage Application Form">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-<!-- Certificates -->
-		<div class="news">
-			<div class="container">
 				<div class="row">
-					<div class="col">
-						<div class="section_title_container">
-							<div class="section_title">
-								<h2>Certificates</h2>
-							</div>
+					<div class="col d-flex justify-content-end">
+						<div class="row ministries_row">
+							<a type="button" role="button" href="https://youtube.com/@agchurchpala2023" target="_blank" class="btn pull-right" style="background-color: #410202; color: #FFFFFF;">
+								More Videos on YouTube 
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right align-middle" viewBox="0 0 16 16">
+									<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+							  	</svg>
+							</a>
 						</div>
 					</div>
-				</div>
-
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288095-Church Membership Certificate 8-_ .F (1) (1).pdf'></iframe>
-								<div class="news_title">Church Membership Certificate</div>
-								<div class="news_text">
-									<a href="downloads/1686288095-Church Membership Certificate 8-_ .F (1) (1).pdf" target=_blank download="Church Membership Certificate">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686287940-Birth Certificate  (( 8_ M _+_ M 1M1M (1).pdf'></iframe>
-								<div class="news_title">Birth Certificate</div>
-								<div class="news_text">
-									<a href="downloads/1686287940-Birth Certificate  (( 8_ M _+_ M 1M1M (1).pdf" target=_blank download="Birth Certificate">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row news_row">
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288186-Marriage Certificate (1).pdf'></iframe>
-								<div class="news_title">Certificate of Marriage</div>
-								<div class="news_text">
-									<a href="downloads/1686288186-Marriage Certificate (1).pdf" target=_blank download="Certificate of Marriage">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 news_col">
-						<div class="news_item">
-							<div class="news_content">
-								<iframe height="400px" width=100% src='downloads/1686288020-Certificate of Baptism 8M(_( 8_ M _+_ M 1M1M (1).pdf'></iframe>
-								<div class="news_title">Certificate of Baptism</div>
-								<div class="news_text">
-									<a href="downloads/1686288020-Certificate of Baptism 8M(_( 8_ M _+_ M 1M1M (1).pdf" target=_blank download="Certificate of Baptism">Download</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
 				</div>
 			</div>
 		</div>
-
 
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
+
 					<div class="col-lg-4 footer_col">
+
 						<div class="logo_container">
 							<div class="logo">
 								<a href="index.html">
 									<span>Assemblies of God Church, Pala</span>
-									<img src="./assets/logo_large.png" alt="" />
+									<img src="./assets/logo_large.png" alt="">
 								</a>
 							</div>
 							<div class="logo_subtitle">God Loves Us All</div>
@@ -318,20 +238,20 @@
 
 					<div class="col-lg-3 footer_col">
 						<!-- <div class="footer_links">
-		<div class="footer_title">Useful Links</div>
-		<ul>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html">Home</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Donations</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/sermons.html">Sermons</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Causes</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Quotes</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/blog.html">News</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Event List</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/ministries.html">Ministries</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/index.html#">Priests</a></li>
-		<li><a href="https://preview.colorlib.com/theme/church/contact.html">Contact</a></li>
-		</ul>
-		</div> -->
+				<div class="footer_title">Useful Links</div>
+				<ul>
+				<li><a href="https://preview.colorlib.com/theme/church/index.html">Home</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/index.html#">Donations</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/sermons.html">Sermons</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/index.html#">Causes</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/index.html#">Quotes</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/blog.html">News</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/index.html#">Event List</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/ministries.html">Ministries</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/index.html#">Priests</a></li>
+				<li><a href="https://preview.colorlib.com/theme/church/contact.html">Contact</a></li>
+				</ul>
+				</div> -->
 					</div>
 
 					<div class="col-lg-4 footer_col">
@@ -353,11 +273,13 @@
 				</div>
 			</div>
 
-			<div class="copyright text-center">Powered by <a href="https://aykara4.com/" target="_blank">Aykara4</a>
+			<div class="copyright text-center">
+				Powered by <a href="https://aykara4.com/" target="_blank">Aykara4</a>
 			</div>
+
 		</footer>
 	</div>
-<script src="./js/enhancements.js"></script>
+
 </body>
 
 </html>
@@ -365,7 +287,8 @@
 <script src="./js/jquery-3.2.1.min.js"></script>
 <script src="./js/popper.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/owl.carousel.js"></script>
 <script src="./js/easing.js"></script>
 <script src="./js/parallax.min.js"></script>
-<script src="./js/blog_custom.js"></script>
+<script src="./js/ministries_custom.js"></script>
 <script src="./js/script.js"></script>

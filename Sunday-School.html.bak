@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Our Beliefs</title>
+	<title>Sunday School</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="description" content="Assemblies of God(AG Church) Pala" />
@@ -23,7 +23,6 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="favicon_io/site.webmanifest">
-<link rel="stylesheet" type="text/css" href="./css/enhancements.css">
 </head>
 
 <body>
@@ -55,7 +54,7 @@
 													<a class="dropdown-item" href="Pastors.html">Our Pastor</a>
 													<!-- <div class="dropdown-divider"></div> -->
 													<a class="dropdown-item" href="History.html">Our History</a>
-													<a class="active" class="dropdown-item" href="#">Our Beliefs</a>
+													<a class="dropdown-item" href="Our-Belief.html">Our Beliefs</a>
 												</div>
 											</li>
 											<li class="nav-item dropdown">
@@ -64,7 +63,7 @@
 												<div class="dropdown-menu">
 													<a class="dropdown-item" href="CA.html">Christ’s Ambassadors
 														(CA)</a>
-													<a class="dropdown-item" href="Sunday-School.html">Sunday School</a>
+													<a class="active" class="dropdown-item" href="#">Sunday School</a>
 													<a class="dropdown-item" href="Women-Missionary.html">Women's
 														Missionary Council</a>
 												</div>
@@ -110,7 +109,7 @@
 								<a class="dropdown-item" href="Pastors.html">Our Pastor</a>
 								<!-- <div class="dropdown-divider"></div> -->
 								<a class="dropdown-item" href="History.html">Our History</a>
-								<a class="active" class="dropdown-item" href="#">Our Beliefs</a>
+								<a class="dropdown-item" href="Our-Belief.html">Our Beliefs</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
@@ -118,7 +117,7 @@
 								aria-haspopup="true" aria-expanded="false">Departments</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="CA.html">Christ’s Ambassadors (CA)</a>
-								<a class="dropdown-item" href="Sunday-School.html">Sunday School</a>
+								<a class="active" class="dropdown-item" href="#">Sunday School</a>
 								<a class="dropdown-item" href="Women-Missionary.html">Women's Missionary Council</a>
 							</div>
 						</li>
@@ -148,11 +147,11 @@
 					<div class="col">
 						<div class="home_container">
 							<div class="home_content d-flex flex-row align-items-center justify-content-start">
-								<div class="home_title">Our Beliefs</div>
+								<div class="home_title">Sunday School</div>
 								<div class="home_breadcrumbs ml-auto">
 									<ul class="breadcrumbs">
-										<li><a href="index.html">About Us</a></li>
-										<li>Our Beliefs</li>
+										<li><a href="index.html">Departments</a></li>
+										<li>Sunday School</li>
 									</ul>
 								</div>
 							</div>
@@ -168,133 +167,48 @@
 					<div class="col-lg-12">
 						<div class="blog_content">
 							<div class="blog_post">
-								<div class="blog_title">ASSEMBLIES OF GOD STATEMENT OF FUNDAMENTAL TRUTHS</div>
 								<div class="blog_text">
-									<p>
-										The Bible is our all-sufficient rule for faith and practice. This Statement of Fundamental Truths is intended simply as a basis of fellowship among us (i.e., that we all speak the same thing, (1 Corinthians 1:10; Acts 2:42). The phraseology employed in this Statement is not inspired nor contended for, but the truth set forth is held to be essential to a full-gospel ministry. No claim is made that it covers all Biblical truth, only that it covers our need as to these fundamental doctrines.
-									</p>
+									<p>This department has been established to promote the spiritual well-being of children from the age 4 to 18. In order to nurture a balanced spiritual growth of children. Under the guidance of Malayalam District Council, a curriculum is designed and Sunday School text books are published for each age group. A Sunday School Committee comprising a Director, Headmaster, Treasurer and Teachers will organise the activities of the Sunday School Department in the church. Dedicated and voluntary Sunday school teachers appointed by the Sunday school Committee teaches Word of God through different lessons in the textbook published by AGMDC.</p>
 								</div>
-
-								<div class="blog_text">
-									<div class="blog_subtitle">1. THE SCRIPTURES INSPIRED</div>
-									<p>
-										The Scriptures, both the Old and New Testaments containing sixty six books, are verbally inspired of God and are the revelation of God to man, the infallible, authoritative rule of faith and conduct.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">2. THE ONE TRUE GOD</div>
-									<p>
-										The one true God has revealed Himself as the eternally self-existent "I AM," the Creator of heaven and earth and all things visible and invisible and the Redeemer of mankind. He has further revealed Himself as embodying the principles of relationship and association as Father, Son and Holy Spirit.
-									</p>
+								<div class="h5" style="margin-top: 3em;">Sundays School Classes:</div>
+								<div class="col-lg-4">
+									<ul class="list-group">
+										<li class="list-group-item list-group-item-warning"><span>Beginner </span></li>
+										<li class="list-group-item list-group-item-primary"><span>Primary </span></li>
+										<li class="list-group-item list-group-item-info"><span>Intermediate </span></li>
+										<li class="list-group-item list-group-item-secondary"><span>Seniors </span></li>
+									</ul>
 								</div>
 								<div class="blog_text">
-									<div class="blog_subtitle">3. The Deity of Jesus Christ</div>
-									<pre><p>And in one Lord Jesus Christ,
-the only Son of God,
-of the same essence as the Father.
-For us and for our salvation
-he came down from heaven;
-he became incarnate by the Holy Spirit in the virgin Mary,
-and was made human.
-He was crucified for us;
-he suffered and was buried.
-The third day he rose again, according to the Scriptures.
-He ascended to heaven
-and is seated at the right hand of the Father.
-He will come again with glory
-to judge the living and the dead.
-
-And we believe in the Holy Spirit.
-									</p></pre>
+									<p>Timing: Every Sunday 08:30 AM to 09:30 AM</p>
+									<p>Venue: AG Church hall, Pala</p>
 								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">4. THE FALL OF MAN</div>
-									<p>
-										Man was created good and upright; However, man by voluntary transgression fell and thereby incurred physical death and spiritual death, which is separation from God.
-									</p>
+								<div class="container" style="margin-top: 20px;">
+									<div class="row">
+										<div class="col-md-12 text-center">
+											<div class="popular_item text-center">
+												<div class="pastor_image"><img class="img-fluid rounded" src="./photos/Sr. Shiny Babu.jpg" /></div>
+												<div class="pastor_name">Headmistress: <span>Sr. Shiny Babu</span></div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">5. THE SALVATION OF MAN</div>
-									<pre><p>Man's only hope of redemption is through the shed blood of Jesus Christ the Son of God.
-And Salvation is received through repentance toward God and faith toward the Lord Jesus Christ. By the washing of regeneration and renewing of the Holy Spirit, being justified by grace through faith,
-									</p></pre>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">6. THE ORDINANCES OF THE CHURCH</div>
-									<pre><p>The two ordinances the Lord ordained for the church are:
-  1) BAPTISM IN WATER
-	The ordinance of baptism by immersion is commanded by the Scriptures. All who repent and believe on Christ as Saviour and Lord are to be baptized. Thus they declare to the world that they have died with Christ and that they also have been raised with Him to walk in newness of life.
-  2) HOLY COMMUNION
-	The Lord's Supper, consisting of the elements --bread and the fruit of the vine-- is the symbol expressing our sharing the divine nature of our Lord Jesus Christ; a memorial of his suffering and death, and a prophecy of His second coming), and is enjoined on all baptised believers "till He come!"
-									</p></pre>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">7. THE BAPTISM IN THE HOLY SPIRIT</div>
-									<p>
-										All believers are entitled to and should ardently expect and earnestly seek the promise of the Father, the baptism in the Holy Spirit and fire, according to the command of our Lord Jesus Christ. This was the normal experience of all in the early Christian Church. With it comes the enduement of power for life and service, the bestowment of the gifts and their uses in the work of the ministry.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">8. THE INITIAL PHYSICAL EVIDENCE OF THE BAPTISM IN THE HOLY SPIRIT</div>
-									<p>
-										The baptism of believers in the Holy Spirit is witnessed by the initial physical sign of speaking with other tongues as the Spirit of God gives them utterance.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">9. SANCTIFICATION</div>
-									<pre><p>Sanctification is an act of separation from that which is evil, and of dedication unto God.
-The Scriptures teach a life of "holiness without which no man shall see the Lord.”
-Human can lead a life of holiness by the power of the Holy Spirit.
-									</p></pre>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">10. THE CHURCH AND ITS MISSION</div>
-									<pre><p>The Church is the Body of Christ, the habitation of God through the Spirit, with divine appointments for the fulfillment of her great commission. Each believer, born of the Spirit, is an integral part of the General Assembly and Church of the Firstborn, which are written in heaven
-The Church is appointed with her mission to the Worship of God;
-And to fulfil the last command to evangelize the world.and make disciples of all nations;
-Building a body of saints being perfected in the image of His Son;
-And meeting human need with ministries of love and compassion.
-									</p></pre>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">11. THE MINISTRY</div>
-									<p>
-										A divinely called and scripturally ordained ministry has been provided by our Lord for the fulfilment of her divinely ordained mission.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">12. DIVINE HEALING</div>
-									<p>
-										Divine healing is an integral part of the gospel. Deliverance from sickness is provided for in the atonement, and is the privilege of all believers.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">13. THE BLESSED HOPE</div>
-									<p>
-										The Imminent return of the Lord Jesus Christ and the resurrection of those who have fallen asleep in Christ and their translation together with those who are alive is the blessed hope of the Church.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">14. THE MILLENNIAL REIGN OF CHRIST</div>
-									<p>
-										The second coming of Christ includes the rapture of the saints, which is our blessed hope, followed by the visible return of Christ with His saints to reign on earth for one thousand years.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">15. THE FINAL JUDGMENT</div>
-									<p>
-										There will be a final judgment in which the wicked dead will be raised and judged according to their works. Whosoever is not found written in the Book of Life, together with the devil and his angels, the beast and the false prophet, will be consigned to the everlasting punishment in the lake which burns with fire and brimstone, which is the second death.
-									</p>
-								</div>
-								<div class="blog_text">
-									<div class="blog_subtitle">16. THE NEW HEAVENS AND THE NEW EARTH</div>
-									<p>
-										"We, according to His promise, look for new heavens and a new earth wherein dwells righteousness."
-									</p>
-								</div>
-
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="quote">
+			<div class="quote_background parallax-window" data-parallax="scroll" data-image-src="assets/banner-parallax.jpg"
+				data-speed="0.8"></div>
+			<div class="container">
+				<div class="row quote_row">
+					<div class="col text-center">
+						<div class="quote_char"><img src="./assets/quote_char.png" alt=""></div>
+						<div class="quote_text">Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father except through Me."</div>
+						<div class="quote_source">John 14:6 NKJV</div>
 					</div>
 				</div>
 			</div>
@@ -364,7 +278,6 @@ And meeting human need with ministries of love and compassion.
 			</div>
 		</footer>
 	</div>
-<script src="./js/enhancements.js"></script>
 </body>
 
 </html>
