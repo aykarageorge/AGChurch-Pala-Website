@@ -1,0 +1,227 @@
+/* ============================================
+   GLOBAL QUOTE SECTION FIXES
+   Comprehensive fix for quote alignment across all pages
+   ============================================ */
+
+/* Base quote section improvements */
+.quote {
+    position: relative;
+    padding: 80px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.quote_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.quote_row {
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.quote_char {
+    margin-bottom: 20px;
+}
+
+.quote_char img {
+    width: 50px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.quote_text {
+    color: #fff !important;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.quote_source {
+    color: #f0c674 !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* ============================================
+   TABLET RESPONSIVE (768px - 991px)
+   ============================================ */
+@media only screen and (max-width: 991px) {
+    /* Disable parallax on tablets and mobile for better performance */
+    .quote_background {
+        background-attachment: scroll !important;
+    }
+    
+    .quote {
+        padding: 60px 0;
+    }
+    
+    .quote_row {
+        margin: 0 20px;
+        padding: 30px 20px;
+        border-radius: 12px;
+    }
+    
+    .quote_text {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 15px auto;
+    }
+    
+    .quote_source {
+        font-size: 15px;
+    }
+    
+    .quote_char img {
+        width: 45px;
+    }
+}
+
+/* ============================================
+   MOBILE RESPONSIVE (max-width: 767px)
+   ============================================ */
+@media only screen and (max-width: 767px) {
+    .quote {
+        padding: 40px 0;
+    }
+    
+    .quote_row {
+        margin: 0 15px;
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    
+    .quote_char img {
+        width: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .quote_text {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 15px auto;
+        padding: 0 10px;
+    }
+    
+    .quote_source {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+/* ============================================
+   SMALL MOBILE RESPONSIVE (max-width: 575px)
+   ============================================ */
+@media only screen and (max-width: 575px) {
+    .quote_row {
+        margin: 0 10px;
+        padding: 20px 12px;
+        border-radius: 8px;
+    }
+    
+    .quote_text {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    
+    .quote_source {
+        font-size: 12px;
+    }
+    
+    .quote_char img {
+        width: 30px;
+    }
+}
+
+/* ============================================
+   LANDSCAPE ORIENTATION FIXES
+   ============================================ */
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+    .quote {
+        padding: 30px 0;
+    }
+    
+    .quote_row {
+        padding: 20px 15px;
+    }
+    
+    .quote_text {
+        font-size: 14px;
+        margin: 10px auto;
+    }
+    
+    .quote_char img {
+        width: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+/* ============================================
+   ACCESSIBILITY AND PERFORMANCE IMPROVEMENTS
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+    .quote_background {
+        background-attachment: scroll !important;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .quote_row {
+        background: rgba(0, 0, 0, 0.9);
+        border: 2px solid #fff;
+    }
+    
+    .quote_text {
+        color: #ffffff !important;
+    }
+    
+    .quote_source {
+        color: #ffff00 !important;
+    }
+}
+
+/* Special fixes for index page if needed */
+.home_quote .quote_row {
+    margin: 0 auto;
+}
+
+/* Ensure consistent spacing */
+.quote .container {
+    position: relative;
+    z-index: 2;
+}
+
+.quote .container .row {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fix for potential Bootstrap conflicts */
+.quote .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
