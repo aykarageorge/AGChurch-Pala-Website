@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Assemblies of God(AG Church) | Pala</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Assemblies of God(AG Church) Pala">
+	<meta name="keywords" content="Assemblies of God, A G Church, AG Church, Pala, AG Church Pala">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<!-- Font Awesome replaced with inline icons for performance -->
+	<style>
+		/* Critical inline CSS for instant rendering */
+		.fa-bars::before { content: "☰"; }
+		.fa-times::before { content: "✕"; }
+		.fa-phone::before { content: "📞"; }
+		.fa-envelope::before { content: "✉"; }
+		.fa-map-marker::before { content: "📍"; }
+		.fa-arrow-up::before { content: "↑"; }
+		.fa-facebook::before { content: "f"; background: #3b5998; color: white; padding: 5px; border-radius: 3px; }
+		.fa-twitter::before { content: "t"; background: #1da1f2; color: white; padding: 5px; border-radius: 3px; }
+		.fa-instagram::before { content: "📷"; }
+		/* Quick contact widget */
+		.quick-contact { position: fixed; right: 20px; top: 50%; transform: translateY(-50%); z-index: 1000; }
+		.contact-btn { display: block; width: 50px; height: 50px; margin: 10px 0; background: #d4a574; color: white; text-align: center; line-height: 50px; border-radius: 50%; text-decoration: none; font-size: 18px; transition: all 0.3s ease; }
+		.contact-btn:hover { background: #c89960; transform: scale(1.1); text-decoration: none; color: white; }
+		@media (max-width: 768px) { .quick-contact { right: 10px; } .contact-btn { width: 40px; height: 40px; line-height: 40px; font-size: 14px; } }
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css">
+	<link rel="stylesheet" type="text/css" href="./css/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/performance-optimized.css">
+	<link rel="stylesheet" type="text/css" href="./css/quote-global-fixes.css">
+	<link rel="stylesheet" type="text/css" href="./css/index-mobile-fixes.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+
+<body>
+	<div class="super_container">
+
+		<header class="header">
+
+			<!-- <div class="top_bar">
+				<div class="container">
+					<div class="row">
+						<div class="col top_bar_content d-flex flex-row align-items-center justify-content-start">
+							<div class="event_timer">
+								<span>Next Big Event:</span>
+								<ul class="timer">
+									<li class="d-inline-flex">
+										<div id="day" class="timer_num">2</div>
+										<div class="timer_unit">Days</div>
+									</li>
+									<li class="d-inline-flex">
+										<div id="hour" class="timer_num">23</div>
+										<div class="timer_unit">Hours</div>
+									</li>
+									<li class="d-inline-flex">
+										<div id="minute" class="timer_num">59</div>
+										<div class="timer_unit">Minutes</div>
+									</li>
+									<li class="d-inline-flex">
+										<div id="second" class="timer_num">47</div>
+										<div class="timer_unit">Seconds</div>
+									</li>
+								</ul>
+							</div>
+							<div class="donations_button ml-auto">
+								<a href="https://preview.colorlib.com/theme/church/index.html#">Send Donations</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="header_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header_content d-flex flex-row align-items-center justify-content-start">
+
+								<div class="logo_container">
+									<div class="logo">
+										<a href="index.html#">
+											<img src="./assets/logo_large.png" alt="logo">
+											<span>Assemblies of God Church, Pala </span>
+										</a>
+									</div>
+								</div>
+
+								<div class="header_nav_container ml-auto">
+									<nav class="main_nav">
+										<ul>
+											<li class="active"><a href="#">Home</a></li>
+											<li class="nav-item dropdown">
+												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+													aria-haspopup="true" aria-expanded="false">About Us</a>
+												<div class="dropdown-menu">
+													<a class="dropdown-item" href="Our Church.html">Our Church</a>
+													<a class="dropdown-item" href="Pastors.html">Our Pastor</a>
+													<!-- <div class="dropdown-divider"></div> -->
+													<a class="dropdown-item" href="History.html">Our History</a>
+													<a class="dropdown-item" href="Our-Belief.html">Our Beliefs</a>
+												</div>
+											</li>
+											<li class="nav-item dropdown">
+												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+													aria-haspopup="true" aria-expanded="false">Departments</a>
+												<div class="dropdown-menu">
+													<a class="dropdown-item" href="CA.html">Christ’s Ambassadors
+														(CA)</a>
+													<a class="dropdown-item" href="Sunday-School.html">Sunday School</a>
+													<a class="dropdown-item" href="Women-Missionary.html">Women's
+														Missionary Council</a>
+												</div>
+											</li>
+											<li><a href="Upcoming-Events.html">Upcoming Events</a></li>
+											<li><a href="Downloads.html">Downloads</a></li>
+											<li class="nav-item dropdown">
+												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+													aria-haspopup="true" aria-expanded="false">Gallery</a>
+												<div class="dropdown-menu">
+													<a class="dropdown-item" href="Photos.html">Photos</a>
+													<a class="dropdown-item" href="Videos.html">Videos</a>
+													<a class="dropdown-item" href="Sermons.html">Sermons</a>
+												</div>
+											</li>
+											<li><a href="Contact.html">Contact Us</a></li>
+										</ul>
+									</nav>
+								</div>
+								<div class="hamburger ml-auto">
+									<i class="fa fa-bars" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu d-flex flex-column align-items-center justify-content-center">
+			<div class="menu_content">
+				<div class="d-flex flex-column align-items-center justify-content-center"><img
+						src="assets/logo_large.png" alt=""></div>
+				<nav class="menu_nav">
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+								aria-haspopup="true" aria-expanded="false">About Us</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="Our Church.html">Our Church</a>
+								<a class="dropdown-item" href="Pastors.html">Our Pastor</a>
+								<!-- <div class="dropdown-divider"></div> -->
+								<a class="dropdown-item" href="History.html">Our History</a>
+								<a class="dropdown-item" href="Our-Belief.html">Our Beliefs</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+								aria-haspopup="true" aria-expanded="false">Departments</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="CA.html">Christ’s Ambassadors (CA)</a>
+								<a class="dropdown-item" href="Sunday-School.html">Sunday School</a>
+								<a class="dropdown-item" href="Women-Missionary.html">Women's Missionary Council</a>
+							</div>
+						</li>
+						<li><a href="Upcoming-Events.html">Upcoming Events</a></li>
+						<li><a href="Downloads.html">Downloads</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+								aria-haspopup="true" aria-expanded="false">Gallery</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="Photos.html">Photos</a>
+								<a class="dropdown-item" href="Videos.html">Videos</a>
+								<a class="dropdown-item" href="Sermons.html">Sermons</a>
+							</div>
+						</li>
+						<li><a href="Contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+		</div>
+
+		<div class="home">
+
+			<div class="home_slider_container">
+				<!-- <div class="owl-carousel owl-theme home_slider owl-loaded owl-drag"> -->
+
+				<div class="owl-stage-outer">
+					<div class="owl-stage">
+						<div class="owl-item cloned">
+							<div class="owl-item">
+								<div id="carouselExampleIndicators" class="carousel slide responsive" data-ride="carousel">
+									<ol class="carousel-indicators">
+									  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+									  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+									</ol>
+									<div class="carousel-inner">
+									  <div class="carousel-item active">
+										<img class="d-block w-100" src="photos/2.jpg" alt="First slide">
+									  </div>
+									  <div class="carousel-item">
+										<img class="d-block w-100" src="photos/3T2A7243-2.jpg" alt="Third slide">
+									  </div>
+									  <div class="carousel-item">
+										<img class="d-block w-100" src="photos/3T2A7166.jpg" alt="Second slide">
+									  </div>
+									  <div class="carousel-item">
+										<img class="d-block w-100" src="photos/3T2A7174-2.jpg" alt="Third slide">
+									  </div>
+									  <div class="carousel-item">
+										<img class="d-block w-100" src="photos/3T2A7182-2.jpg" alt="Third slide">
+									  </div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									  <span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+									  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+									  <span class="sr-only">Next</span>
+									</a>
+								  </div>
+								<!-- <div class="home_slider_content text-center">
+									<div class="cross_1 d-flex flex-column align-items-center justify-content-center">
+										<img src="./assets/logo_updated_colour.png" alt="">
+									</div>
+									<h1> </h1>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="owl-nav disabled">
+					<div class="owl-prev">prev</div>
+					<div class="owl-next">next</div>
+				</div> -->
+				<div class="owl-dots disabled"></div>
+				<!-- </div> -->
+				<!-- <div class="home_slider_nav d-flex flex-column align-items-center justify-content-center"><img src="./assets/arrow_r.png" alt=""></div> -->
+			</div>
+		</div>
+
+		<div class="intro">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container">
+							<!-- <div class="section_image"><img src="./assets/church_1.png" alt=""></div> -->
+							<div class="section_title">
+								<h2>Welcome to Our Church</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row intro_content align-items-center">
+					<div class="col-lg-6">
+						<div class="intro_text text-center">
+							<p>At the Assemblies of God Church, we are a vibrant and diverse community of believers who
+								come together to worship God, grow in faith, and serve our local communities. Our church
+								is part of the larger Assemblies of God fellowship, which is a global network of
+								churches committed to spreading the message of God's love and grace.</p>
+							<!-- <div class="button intro_button"><a href="https://preview.colorlib.com/theme/church/index.html#">Read More</a></div> -->
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="intro_image"><img src="./photos/3T2A7244.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="sermon welcome-note-section">
+			<div class="sermon_background parallax-window" data-parallax="scroll" data-image-src="assets/banner-parallax.jpg" data-speed="0.8"></div>
+			<div class="container">
+				<div class="row sermon_row">
+					<div class="col-lg-12">
+						<div class="sermon_content blockquote blockquote-custom bg-white bg-opacity-90 p-5 shadow rounded">
+							<div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+							<div class="row">
+								<div class="col">
+									<div class="section_title_container">
+										<div class="section_title">
+											<h3>Welcome Note</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+			
+							<ul class="sermon_list">
+								<li>By: <a href=""><cite title="Source Title">Pr. K P Cherian</cite></a></li>
+							</ul>
+							<div class="sermon_text font-italic">
+								<p>Praise the Lord<br>
+									Assemblies of God Church, Pala, is a place to meet  Jesus Christ your Saviour. God has been gracious and embraced us with his eternal love. So we warmly welcome all of you to Come and join with us.<br>
+									We<br>
+									&ensp;Feel the Presence of God,<br>
+									&ensp;Fill with the power of God,<br>
+									&ensp;Focus on the grace of God,<br>
+									&ensp;Follow the word of God,<br>
+									&ensp;Fellowship with the love of God.<br>
+									Expect a move of God in your life as we grow together in Him.<br> 
+									May God bless you.</p>
+							</div>
+							<!-- <div class="button sermon_button"><a href="https://preview.colorlib.com/theme/church/sermons.html">Read More</a></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="services">
+			<div class="services_background parallax-window" data-parallax="scroll" data-image-src="assets/banner-parallax.jpg" data-speed="0.8"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container">
+							<!-- <div class="section_image"><img src="./assets/church_2.png" alt=""></div> -->
+							<div class="section_title">
+								<h2>Our Church main activities</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="services_text text-center">
+							<p>We invite you to join us for our weekly worship services where we come together to praise
+								and worship God. Our services are filled with uplifting music, heartfelt prayers, and
+								inspiring messages from the Bible.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row services_row">
+
+					<div class="col-lg-3 col-md-3 col-3">
+						<div class="services_item text-center"><a href="./Sunday-School.html">
+								<div class="services_image"><img src="./assets/kids-ministry.png" alt=""></div>
+								<div class="services_title">Sunday School</div>
+							</a></div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-3">
+						<div class="services_item text-center"><a href="./CA.html">
+								<div class="services_image"><img src="./assets/men-ministry.png" alt=""></div>
+								<div class="services_title">Christ’s Ambassadors</div>
+							</a></div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-3">
+						<div class="services_item text-center"><a href="./Sermons.html">
+								<div class="services_image"><img src="./assets/sermons.png" alt=""></div>
+								<div class="services_title">Sermons</div>
+							</a></div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-3">
+						<div class="services_item text-center"><a href="./Women-Missionary.html">
+								<div class="services_image"><img src="./assets/women-ministry.png" alt=""></div>
+								<div class="services_title">Women's Missionary Council</div>
+							</a></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="sermon">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container">
+							<!-- <div class="section_image"><img src="./assets/church_3.png" alt=""></div> -->
+							<div class="section_title">
+								<h2>Sunday Sermon</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row sermon_row">
+
+					<div class="col-lg-6">
+						<div class="sermon_image"><img src="./assets/sermon.jpg" alt=""></div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="sermon_content">
+							<div class="sermon_title">Sunday Sermon</div>
+							<ul class="sermon_list">
+								<li>Sermon by: <a href="">Pr. K P Cherian</a></li>
+								<li>Date: <a href="">Sunday's, 9:30am to 1:00 pm</a></li>
+							</ul>
+							<div class="sermon_text">
+								<p>At Assemblies of God Church, we believe that spiritual nourishment is essential for a
+									thriving faith journey. Each day, we offer you a heartfelt message straight from
+									God's Word to inspire, encourage, and uplift your spirit.</p>
+							</div>
+							<!-- <div class="button sermon_button"><a href="https://preview.colorlib.com/theme/church/sermons.html">Read More</a></div> -->
+						</div>
+					</div>
+				</div>
+</div>
+</div>
+
+<!-- Zoom Meeting Section Start -->
+<div class="container my-5">
+  <div class="card shadow border-0">
+    <div class="card-body">
+      <div class="d-flex align-items-center mb-3">
+        <i class="fa fa-video-camera fa-2x text-primary mr-3" aria-hidden="true" style="font-size:2.5rem;"></i>
+        <h3 class="mb-0">Weekly Bible Class on Zoom</h3>
+      </div>
+      <ul class="list-unstyled mb-3">
+        <li><strong>Topic:</strong> WEEKLY BIBLE CLASS</li>
+        <li><strong>Time:</strong> Saturday's 07:30 PM India</li>
+        <li><strong>Meeting ID:</strong> 984 720 7259</li>
+        <li><strong>Passcode:</strong> 2025</li>
+        <li>
+          <strong>Join Zoom Meeting:</strong>
+          <a href="https://us06web.zoom.us/j/9847207259?pwd=jydgdXJy0SPRZzuoImlIRdebEFj8vO.1&omn=85748383775" target="_blank" class="ml-2 text-primary">
+            Click here
+          </a>
+        </li>
+      </ul>
+      <div class="text-center">
+        <img src="photos/zoom link.jpg" alt="Zoom Meeting Poster" class="img-fluid rounded shadow" style="max-width:300px;cursor:pointer" data-toggle="modal" data-target="#zoomPosterModal">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for Zoom Poster -->
+<div class="modal fade" id="zoomPosterModal" tabindex="-1" role="dialog" aria-labelledby="zoomPosterModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body p-0 text-center">
+        <img src="photos/zoom link.jpg" alt="Zoom Meeting Poster" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Zoom Meeting Section End -->
+
+<div class="quote">
+	<div class="quote_background parallax-window" data-parallax="scroll" data-image-src="assets/banner-parallax.jpg" data-speed="0.8"></div>
+	<div class="container">
+			<div class="row quote_row">
+				<div class="col text-center">
+					<div class="quote_char"><img src="./assets/quote_char.png" alt=""></div>
+					<div class="quote_text">But you shall receive power when the Holy Spirit has come upon you; and you shall be witnesses to Me in Jerusalem, and in all Judea and Samaria, and to the end of the earth.”</div>
+					<div class="quote_source">Acts 1:8 NKJV</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sermon">
+		<div class="container">
+			<div class="row sermon_row">
+				<div class="col-lg-12">
+					<div class="sermon_content blockquote blockquote-custom bg-white p-5 shadow rounded">
+						<div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+						<div class="row">
+							<div class="col">
+								<div class="section_title_container">
+									<div class="section_title">
+										<h3>Testimony</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<ul class="sermon_list">
+							<li>By: <a href=""><cite title="Source Title">Dr. Jinu David Mathai</cite></a></li>
+						</ul>
+						<div class="sermon_text font-italic">
+							<p>As I look back, God planted us in Pala as a testimony for our Lord and Saviour Jesus Christ. We joined as a church for prayer and worship at different rented apartments and buildings around Pala. Lord gifted us a Church Hall and Parsonage complex near Pala town in 2018. We humble ourselves and praise God each day how the Lord blessed us abundantly.</p>
+						</div>
+						<!-- <div class="button sermon_button"><a href="https://preview.colorlib.com/theme/church/sermons.html">Read More</a></div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<!-- <div class="newsletter">
+	<div class="container">
+	<div class="row">
+	<div class="col">
+	<div class="newsletter_content d-flex flex-lg-row flex-column align-items-center justify-content-start">
+	<div class="newsletter_title">Subscribe to our newsletter</div>
+	<div class="newsletter_form_container ml-lg-auto">
+	<form action="https://preview.colorlib.com/theme/church/index.html#" id="newsletter_form" class="newsletter_form">
+	<input type="email" class="newsletter_input" placeholder="Your email" required="required">
+	<button id="newsletter_button" class="newsletter_button">Subscribe</button>
+	</form>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div> -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-4 footer_col">
+
+						<div class="logo_container">
+							<div class="logo">
+								<a href="index.html">
+									<span>Assemblies of God Church, Pala</span>
+									<img src="./assets/logo_large.png" alt="">
+								</a>
+							</div>
+							<div class="logo_subtitle">God Loves Us All</div>
+						</div>
+						<div class="footer_social">
+							<ul>
+								<li><a href="https://youtube.com/@agchurchpala2023" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.instagram.com/agmdcofficialmedia/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.facebook.com/agmdcofficial" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<!-- <li><a href="https://preview.colorlib.com/theme/church/index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-3 footer_col">
+						<!-- <div class="footer_links">
+			<div class="footer_title">Useful Links</div>
+			<ul>
+			<li><a href="https://preview.colorlib.com/theme/church/index.html">Home</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/index.html#">Donations</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/sermons.html">Sermons</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/index.html#">Causes</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/index.html#">Quotes</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/blog.html">News</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/index.html#">Event List</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/ministries.html">Ministries</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/index.html#">Priests</a></li>
+			<li><a href="https://preview.colorlib.com/theme/church/contact.html">Contact</a></li>
+			</ul>
+			</div> -->
+					</div>
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_contact">
+							<div class="footer_title">Contact Us</div>
+							<ul>
+								<li><span>Address: </span>Assemblies of God Church, Kottaramattom-Vaikom road, Pala 686575</li>
+								<li class="footer_contact_phone">
+									<span>Phone: </span>
+									<div>
+										<div>+91 984 7207 259</div>
+										<div>+91 949 5316 982</div>
+									</div>
+								</li>
+								<li><span>Email: </span>agchurchpala2023@gmail.com</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright text-center">
+				Powered by <a href="https://aykara4.com/" target="_blank">Aykara4</a>
+			</div>
+
+		</footer>
+	</div>
+
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/popper.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/owl.carousel.js"></script>
+	<script src="./js/easing.js"></script>
+	<script src="./js/parallax.min.js"></script>
+	<script src="./js/custom.js"></script>
+	<script src="./js/fast-enhancements.js"></script>
+</body>
+
+</html>

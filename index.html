@@ -9,15 +9,34 @@
 	<meta name="description" content="Assemblies of God(AG Church) Pala">
 	<meta name="keywords" content="Assemblies of God, A G Church, AG Church, Pala, AG Church Pala">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="./css/bootstrap.min.css" as="style">
+    <link rel="preload" href="./js/universal-fast-loader.js" as="script">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Font Awesome replaced with inline icons for performance -->
+	<style>
+		/* Critical inline CSS for instant rendering */
+		.fa-bars::before { content: "☰"; }
+		.fa-times::before { content: "✕"; }
+		.fa-phone::before { content: "📞"; }
+		.fa-envelope::before { content: "✉"; }
+		.fa-map-marker::before { content: "📍"; }
+		.fa-arrow-up::before { content: "↑"; }
+		.fa-facebook::before { content: "f"; background: #3b5998; color: white; padding: 5px; border-radius: 3px; }
+		.fa-twitter::before { content: "t"; background: #1da1f2; color: white; padding: 5px; border-radius: 3px; }
+		.fa-instagram::before { content: "📷"; }
+		/* Quick contact widget */
+		.quick-contact { position: fixed; right: 20px; top: 50%; transform: translateY(-50%); z-index: 1000; }
+		.contact-btn { display: block; width: 50px; height: 50px; margin: 10px 0; background: #d4a574; color: white; text-align: center; line-height: 50px; border-radius: 50%; text-decoration: none; font-size: 18px; transition: all 0.3s ease; }
+		.contact-btn:hover { background: #c89960; transform: scale(1.1); text-decoration: none; color: white; }
+		@media (max-width: 768px) { .quick-contact { right: 10px; } .contact-btn { width: 40px; height: 40px; line-height: 40px; font-size: 14px; } }
+	</style>
 	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="./css/animate.css">
 	<link rel="stylesheet" type="text/css" href="./css/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/enhancements.css">
+	<link rel="stylesheet" type="text/css" href="./css/performance-optimized.css">
 	<link rel="stylesheet" type="text/css" href="./css/quote-global-fixes.css">
 	<link rel="stylesheet" type="text/css" href="./css/index-mobile-fixes.css">
 
@@ -577,7 +596,7 @@
 	<script src="./js/easing.js"></script>
 	<script src="./js/parallax.min.js"></script>
 	<script src="./js/custom.js"></script>
-	<script src="./js/enhancements.js"></script>
+	<script src="./js/universal-fast-loader.js"></script>
 </body>
 
 </html>
