@@ -37,8 +37,6 @@
         // Add performance monitoring
         setupPerformanceMonitoring();
         
-        // Show loading progress
-        showGalleryLoadingProgress();
         
         console.log(`📊 Gallery: ${totalImages} images ready for lazy loading`);
     }
@@ -123,8 +121,6 @@
                 currentlyLoading--;
                 loadedImages++;
                 
-                // Update progress
-                updateLoadingProgress();
                 
                 // Process next in queue
                 if (loadingQueue.length > 0) {
@@ -165,7 +161,6 @@
         this.alt = 'Image failed to load';
         
         loadedImages++;
-        updateLoadingProgress();
     }
     
     function setupProgressiveLoading() {
@@ -197,8 +192,6 @@
                 console.log(`🎯 Gallery loading completed in ${loadTime.toFixed(2)}s`);
                 console.log(`📈 Loaded ${loadedImages}/${totalImages} images`);
                 
-                // Hide loading indicator
-                hideGalleryLoadingProgress();
                 
                 // Cleanup
                 if (observer) {
@@ -212,81 +205,6 @@
         setTimeout(checkLoadingComplete, 2000);
     }
     
-    function showGalleryLoadingProgress() {
-        // Create loading indicator
-        const loadingIndicator = document.createElement('div');
-        loadingIndicator.className = 'gallery-loading-progress';
-        loadingIndicator.innerHTML = `
-            <div class="loading-bar">
-                <div class="loading-progress" style="width: 0%"></div>
-            </div>
-            <div class="loading-text">Loading gallery images... 0/${totalImages}</div>
-        `;
-        
-        // Add styles
-        loadingIndicator.style.cssText = `
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: rgba(0,0,0,0.8);
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            z-index: 1000;
-            font-size: 14px;
-            min-width: 200px;
-        `;
-        
-        const loadingBar = loadingIndicator.querySelector('.loading-bar');
-        loadingBar.style.cssText = `
-            width: 100%;
-            height: 4px;
-            background: rgba(255,255,255,0.3);
-            border-radius: 2px;
-            margin-bottom: 8px;
-            overflow: hidden;
-        `;
-        
-        const loadingProgress = loadingIndicator.querySelector('.loading-progress');
-        loadingProgress.style.cssText = `
-            height: 100%;
-            background: #d4a574;
-            transition: width 0.3s ease;
-        `;
-        
-        document.body.appendChild(loadingIndicator);
-        window.galleryLoadingIndicator = loadingIndicator;
-    }
-    
-    function updateLoadingProgress() {
-        const indicator = window.galleryLoadingIndicator;
-        if (!indicator) return;
-        
-        const progressBar = indicator.querySelector('.loading-progress');
-        const progressText = indicator.querySelector('.loading-text');
-        
-        const percentage = Math.round((loadedImages / totalImages) * 100);
-        
-        if (progressBar) {
-            progressBar.style.width = percentage + '%';
-        }
-        
-        if (progressText) {
-            progressText.textContent = `Loading gallery images... ${loadedImages}/${totalImages} (${percentage}%)`;
-        }
-    }
-    
-    function hideGalleryLoadingProgress() {
-        const indicator = window.galleryLoadingIndicator;
-        if (indicator) {
-            indicator.style.opacity = '0';
-            setTimeout(() => {
-                if (indicator.parentNode) {
-                    indicator.parentNode.removeChild(indicator);
-                }
-            }, 500);
-        }
-    }
     
     function createPlaceholderDataURI(width, height) {
         // Create a small SVG placeholder

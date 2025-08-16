@@ -1,19 +1,6 @@
 // Enhanced UX JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Page Loader
-    const pageLoader = document.createElement('div');
-    pageLoader.className = 'page-loader';
-    pageLoader.innerHTML = '<div class="loader-spinner"></div>';
-    document.body.prepend(pageLoader);
-    
-    window.addEventListener('load', function() {
-        setTimeout(() => {
-            pageLoader.classList.add('hidden');
-            setTimeout(() => pageLoader.remove(), 500);
-        }, 500);
-    });
-    
     // Scroll to Top Button
     const scrollToTopBtn = document.createElement('button');
     scrollToTopBtn.className = 'scroll-to-top';
