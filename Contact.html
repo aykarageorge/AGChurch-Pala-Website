@@ -250,28 +250,28 @@
 					<div class="contact_title">Prayer Request</div>
 
 					<div class="container px-5 my-5">
-						<form id="prayerForm" action="">
+						<form id="prayerForm">
 						  <div class="form-floating mb-3">
+							<input class="form-control" id="name" type="text" placeholder="Mark Sloan" required />
 							<label for="name">Name</label>
-							<input class="form-control" id="name" type="text" placeholder="Mark Sloan" data-sb-validations="required" />
-							<div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
 						  </div>
 						  <div class="form-floating mb-3">
+							<input class="form-control" id="phone" type="tel" placeholder="8907xxxxxx" />
 							<label for="phone">Phone Number</label>
-							<input class="form-control" id="phone" type="phone" placeholder="8907xxxxxx" data-sb-validations="phone" />
 						  </div>
 						  <div class="form-floating mb-3">
-							<label for="emailAddress">Email Address</label>
-							<input class="form-control" id="email" type="email" placeholder="mark.sloan@gmail.com" data-sb-validations="email" />
-							<div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+							<input class="form-control" id="email" type="email" placeholder="mark.sloan@gmail.com" />
+							<label for="email">Email Address</label>
 						  </div>
 						  <div class="form-floating mb-3">
+							<textarea class="form-control" id="message" placeholder="Pray for us." style="height: 10rem;" required></textarea>
 							<label for="message">Prayer Request</label>
-							<textarea class="form-control" id="message" type="text" placeholder="Pray for us." style="height: 10rem;" data-sb-validations="required"></textarea>
-							<div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
 						  </div>
 						  <div class="d-grid">
-							<button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" data-action='submit'>Submit</button>
+							<button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit Prayer Request</button>
+						  </div>
+						  <div id="prayerSuccess" class="alert alert-success mt-3" style="display:none;">
+							Thank you — your prayer request has been received. We will pray for you.
 						  </div>
 						</form>
 					  </div>
@@ -368,14 +368,8 @@
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="./js/popper.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/owl.carousel.js"></script>
-	<script src="./js/easing.js"></script>
 	<script src="./js/parallax.min.js"></script>
 	<script src="./js/contact_custom.js"></script>
 </body>
 
 </html>
-
-<script src="https://www.google.com/recaptcha/api.js?render=6LevfoInAAAAAOvAyN_eLNlGG0sQxBlxJZXFwFJ5" async defer></script>
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>

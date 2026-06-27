@@ -45,7 +45,7 @@ $(document).ready(function()
 	initHeaderSearch();
 	initMenu();
 	initTimer();
-	initGoogleMap();
+	initPrayerForm();
 
 	/* 
 
@@ -189,12 +189,43 @@ $(document).ready(function()
     	}	
 	}
 
-	/* 
+	/*
 
-	6. Init Google Map
+	6. Prayer Form
 
 	*/
 
+	function initPrayerForm()
+	{
+		var form = document.getElementById('prayerForm');
+		if (!form) return;
+
+		form.addEventListener('submit', function(e) {
+			e.preventDefault();
+
+			var name = document.getElementById('name').value.trim();
+			var message = document.getElementById('message').value.trim();
+
+			if (!name || !message) return;
+
+			// Build mailto link so the request reaches the church email
+			var subject = encodeURIComponent('Prayer Request from ' + name);
+			var phone = document.getElementById('phone').value.trim();
+			var email = document.getElementById('email').value.trim();
+			var body = encodeURIComponent(
+				'Name: ' + name + '\n' +
+				(phone ? 'Phone: ' + phone + '\n' : '') +
+				(email ? 'Email: ' + email + '\n' : '') +
+				'\nPrayer Request:\n' + message
+			);
+			window.location.href = 'mailto:agchurchpala2023@gmail.com?subject=' + subject + '&body=' + body;
+
+			document.getElementById('prayerSuccess').style.display = 'block';
+			form.reset();
+		});
+	}
+
+	/* REMOVED: initGoogleMap — Google Maps JS API not loaded; map is an iframe embed.
 	function initGoogleMap()
 	{
 		var myLatlng = new google.maps.LatLng(34.047215, -118.268086);
@@ -403,5 +434,6 @@ $(document).ready(function()
 			}, 1400);
 		});
 	}
+	*/
 
 });
