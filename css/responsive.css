@@ -182,6 +182,10 @@
 	{
 		font-size: 48px;
 	}
+	.home_container
+	{
+		height: 286px;
+	}
 	.causes_slider_nav
 	{
 		display: none !important;
@@ -194,6 +198,15 @@
 
 @media only screen and (max-width: 575px)
 {
+	.home_container
+	{
+		height: 215px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+		line-height: 1;
+	}
 	p
 	{
 		font-size: 13px;

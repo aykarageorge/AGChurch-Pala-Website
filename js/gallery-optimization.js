@@ -42,7 +42,7 @@
     }
     
     function setupLazyLoading() {
-        const galleryImages = document.querySelectorAll('.gallery_item img, .photos_gallery img');
+        const galleryImages = document.querySelectorAll('.ministry_image img');
         totalImages = galleryImages.length;
         
         if (totalImages === 0) return;
@@ -165,7 +165,7 @@
     
     function setupProgressiveLoading() {
         // Load critical images first (first row)
-        const firstRowImages = document.querySelectorAll('.gallery_item img, .photos_gallery img');
+        const firstRowImages = document.querySelectorAll('.ministry_image img');
         const criticalImages = Array.from(firstRowImages).slice(0, 6);
         
         criticalImages.forEach((img, index) => {
@@ -234,7 +234,7 @@
     // Utility functions for image optimization
     function optimizeImageLoading() {
         // Add image loading hints for better performance
-        const galleryImages = document.querySelectorAll('.gallery_item img, .photos_gallery img');
+        const galleryImages = document.querySelectorAll('.ministry_image img');
         
         galleryImages.forEach(img => {
             // Add loading attributes for modern browsers

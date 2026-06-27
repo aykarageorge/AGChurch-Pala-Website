@@ -47,8 +47,10 @@ $(document).ready(function()
 	initMenu();
 	initCausesSlider();
 	initTimer();
+	initShowMore();
+	initGalleryLightbox();
 
-	/* 
+	/*
 
 	2. Set Header
 
@@ -229,6 +231,56 @@ $(document).ready(function()
 	}
 
 	/* 
+
+	7. Init Timer
+
+	*/
+
+	/*
+
+	8. Gallery Lightbox
+
+	*/
+
+	function initGalleryLightbox()
+	{
+		if(!$('#imagemodal').length) return;
+
+		$(document).on('click', '.ministry_image img', function()
+		{
+			// gallery-optimization.js stores real URL in data-src while loading;
+			// fall back to src once the image has fully loaded
+			var src = $(this).data('src') || $(this).attr('src');
+			$('#imagemodal .imagepreview').attr('src', src);
+			$('#imagemodal').modal('show');
+		});
+
+		// clear src on close to stop the previous image flickering when modal reopens
+		$('#imagemodal').on('hidden.bs.modal', function()
+		{
+			$(this).find('.imagepreview').attr('src', '');
+		});
+	}
+
+	/*
+
+	9. Gallery Show More
+
+	*/
+
+	function initShowMore()
+	{
+		document.querySelectorAll('.gallery_show_more_btn').forEach(function(btn) {
+			btn.addEventListener('click', function() {
+				var buttonRow = btn.closest('.row');
+				var hiddenRow = buttonRow.nextElementSibling;
+				hiddenRow.style.display = '';
+				buttonRow.style.display = 'none';
+			});
+		});
+	}
+
+	/*
 
 	7. Init Timer
 

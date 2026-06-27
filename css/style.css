@@ -117,6 +117,54 @@
   font-size: 1.1rem;
 }
 
+.ministry_image img {
+  cursor: pointer;
+}
+.ministry_image img:hover {
+  opacity: 0.88;
+  transition: opacity 0.15s ease;
+}
+.gallery_modal_close {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  z-index: 10;
+  width: 36px;
+  height: 36px;
+  background: #800000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 1;
+  opacity: 1;
+  text-shadow: none;
+}
+.gallery_modal_close:hover {
+  background: #5a0000;
+  color: #fff;
+  opacity: 1;
+}
+
+.gallery_show_more_btn {
+  display: inline-block;
+  padding: 8px 28px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  background: transparent;
+  color: #800000;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.gallery_show_more_btn:hover {
+  background: #800000;
+  color: #ffffff;
+}
+
 .blockquote-custom-icon {
   width: 50px;
   height: 50px;

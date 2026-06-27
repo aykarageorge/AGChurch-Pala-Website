@@ -15,7 +15,9 @@
 	<link rel="stylesheet" type="text/css" href="./css/animate.css">
 	<link rel="stylesheet" type="text/css" href="./css/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/gallery-optimization.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="favicon_io/site.webmanifest">
@@ -160,21 +162,43 @@
 			</div>
 		</div>
 
-		<!-- Modal -->
-		<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-			aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<button type="button" class="close" data-dismiss="modal"><span
-								aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<img src="" class="imagepreview" style="width: 100%; max-height: 700px;">
+		<!-- Image Lightbox Modal -->
+		<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-label="Photo viewer" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content" style="background:transparent; border:none; box-shadow:none;">
+					<div class="modal-body p-0" style="position:relative;">
+						<button type="button" class="close gallery_modal_close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<img src="" class="imagepreview" alt="Expanded photo" style="width:100%; height:auto; max-height:90vh; object-fit:contain; display:block;">
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Modal -->
+		<!-- /Image Lightbox Modal -->
 
+		<!-- ================================================================
+		     HOW TO ADD A NEW PHOTO SECTION (each year / event):
+		     ================================================================
+		     1. Copy the entire <div class="ministries">...</div> block below
+		        and paste it ABOVE this comment for the newest section.
+		     2. Update: <h2> title, subtitle text, and all img src="photos/..." paths.
+		     3. Add new photo files to the photos/ folder.
+		     4. If the section has MORE than 6 photos:
+		        a. Keep the first 6 <div class="col-..."> items in the first
+		           <div class="row ministries_row">.
+		        b. Close that row with </div> and add the Show More button row:
+		              <div class="row py-2">
+		                <div class="col text-center">
+		                  <button class="gallery_show_more_btn" type="button">Show More Photos (N more)</button>
+		                </div>
+		              </div>
+		        c. Open a hidden row for the remaining photos:
+		              <div class="row ministries_row gallery_hidden_photos" style="display:none">
+		                ...remaining col items...
+		              </div>
+		     5. Run ./optimize-images.sh before pushing to compress new photos.
+		     ================================================================ -->
 		<div class="ministries">
 			<div class="container">
 				<div class="row">
@@ -199,7 +223,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-23.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-23.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -207,7 +231,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-24.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-24.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -215,7 +239,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-25.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-25.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -223,7 +247,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-26.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-26.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -231,7 +255,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-27.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-27.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -239,7 +263,23 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-38-24.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-38-24.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+							</div>
+						</div>
+					</div>
+				</div><!-- end visible row -->
+
+				<div class="row py-2">
+					<div class="col text-center">
+						<button class="gallery_show_more_btn" type="button">Show More Photos (11 more)</button>
+					</div>
+				</div>
+
+				<div class="row ministries_row gallery_hidden_photos" style="display:none">
+					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
+						<div class="ministry">
+							<div class="ministry_image" style="height: 200px; overflow: hidden;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-38-25.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -247,7 +287,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-38-25.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-38-26.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -255,7 +295,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-38-26.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-25 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -263,7 +303,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-25 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-25 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -271,7 +311,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-25 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-27 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -279,7 +319,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-27 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-27 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -287,7 +327,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-27 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-23 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -295,7 +335,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-23 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-26 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -303,7 +343,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-26 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-24 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -311,7 +351,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-24 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-35-24 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -319,15 +359,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-35-24 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
-						<div class="ministry">
-							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-38-25 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-38-25 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -359,7 +391,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-41-38.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-41-38.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -367,7 +399,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-41-39.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-41-39.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -375,7 +407,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-41-40.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-41-40.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -383,7 +415,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-41-38 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-41-38 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -391,7 +423,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-41-39 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-41-39 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -399,7 +431,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-41-39 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-41-39 3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -431,7 +463,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-43-02.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-43-02.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -439,7 +471,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-43-03.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-43-03.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -447,7 +479,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-43-04.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-43-04.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -455,7 +487,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-43-29.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-43-29.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -463,7 +495,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-19-43-03 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-19-43-03 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -495,7 +527,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-20-01-11.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-20-01-11.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -503,7 +535,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/PHOTO-2025-07-04-20-01-11 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/PHOTO-2025-07-04-20-01-11 2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -511,7 +543,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="./assets/PHOTO_transparent.png" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="./assets/PHOTO_transparent.png" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -519,7 +551,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/3T2A7244.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/3T2A7244.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -527,7 +559,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -535,7 +567,23 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/3T2A7166.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/3T2A7166.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+							</div>
+						</div>
+					</div>
+				</div><!-- end visible row -->
+
+				<div class="row py-2">
+					<div class="col text-center">
+						<button class="gallery_show_more_btn" type="button">Show More Photos (12 more)</button>
+					</div>
+				</div>
+
+				<div class="row ministries_row gallery_hidden_photos" style="display:none">
+					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
+						<div class="ministry">
+							<div class="ministry_image" style="height: 200px; overflow: hidden;">
+								<img loading="lazy" decoding="async" src="photos/3T2A7240.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -543,7 +591,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/3T2A7240.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/3T2A7252.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -551,7 +599,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/3T2A7252.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/3T2A7166.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -559,7 +607,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/3T2A7166.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/3T2A7174.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -567,7 +615,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/3T2A7174.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2023-07-15 (6).jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -575,7 +623,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2023-07-15 (6).jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2023-07-15.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -583,7 +631,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2023-07-15.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2023-07-15 (1).jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -591,7 +639,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2023-07-15 (1).jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2023-07-15 (2).jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -599,7 +647,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2023-07-15 (2).jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2023-07-15 (3).jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -607,7 +655,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2023-07-15 (3).jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2023-07-15 (4).jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -615,7 +663,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2023-07-15 (4).jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/2023-07-15 (5).jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -623,15 +671,7 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
 							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/2023-07-15 (5).jpg" style="width: 100%; height: 100%; object-fit: cover;">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
-						<div class="ministry">
-							<div class="ministry_image" style="height: 200px; overflow: hidden;">
-								<img src="photos/IMG_20210411_102803.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<img loading="lazy" decoding="async" src="photos/IMG_20210411_102803.jpg" style="width: 100%; height: 100%; object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -711,10 +751,9 @@
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="./js/popper.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/owl.carousel.js"></script>
-	<script src="./js/easing.js"></script>
 	<script src="./js/parallax.min.js"></script>
 	<script src="./js/custom.js"></script>
+	<script src="./js/gallery-optimization.js"></script>
 </body>
 
 </html>
