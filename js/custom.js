@@ -49,6 +49,7 @@ $(document).ready(function()
 	initTimer();
 	initShowMore();
 	initGalleryLightbox();
+	initVideoLightbox();
 
 	/*
 
@@ -264,7 +265,33 @@ $(document).ready(function()
 
 	/*
 
-	9. Gallery Show More
+	9. Gallery Video Lightbox
+
+	*/
+
+	function initVideoLightbox()
+	{
+		if(!$('#videomodal').length) return;
+
+		$(document).on('click', '.gallery_video', function()
+		{
+			var src = $(this).data('video-src');
+			$('#videomodal .videopreview source').attr('src', src);
+			$('#videomodal .videopreview')[0].load();
+			$('#videomodal').modal('show');
+		});
+
+		// clear src on close to stop video playback
+		$('#videomodal').on('hidden.bs.modal', function()
+		{
+			$(this).find('.videopreview')[0].pause();
+			$(this).find('.videopreview source').attr('src', '');
+		});
+	}
+
+	/*
+
+	10. Gallery Show More
 
 	*/
 

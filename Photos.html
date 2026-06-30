@@ -177,6 +177,24 @@
 		</div>
 		<!-- /Image Lightbox Modal -->
 
+		<!-- Video Lightbox Modal -->
+		<div class="modal fade" id="videomodal" tabindex="-1" role="dialog" aria-label="Video viewer" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content" style="background:transparent; border:none; box-shadow:none;">
+					<div class="modal-body p-0" style="position:relative;">
+						<button type="button" class="close gallery_modal_close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<video class="videopreview" controls style="width:100%; height:auto; max-height:90vh; object-fit:contain; display:block; background: #000;">
+							<source src="" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Video Lightbox Modal -->
+
 		<!-- CA-Sunday School Anniversary 2026 -->
 		<div class="ministries">
 			<div class="container">
@@ -244,11 +262,8 @@
 
 					<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 						<div class="ministry">
-							<div class="ministry_image" style="height: 200px; overflow: hidden; background: #000;">
-								<video style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" controls>
-									<source src="photos/VIDEO-2026-06-30-10-12-58.mp4" type="video/mp4">
-									Your browser does not support the video tag.
-								</video>
+							<div class="ministry_image gallery_video" data-video-src="photos/VIDEO-2026-06-30-10-12-58.mp4" style="height: 200px; overflow: hidden; background: #000; cursor: pointer; position: relative; display: flex; align-items: center; justify-content: center;">
+								<i class="fa fa-play" style="font-size: 48px; color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.5);"></i>
 							</div>
 						</div>
 					</div>
