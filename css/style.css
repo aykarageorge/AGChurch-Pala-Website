@@ -179,4 +179,11 @@
 
 .welcome-note-section .sermon_background {
   display: none !important;
+  background: none !important;
+  background-image: none !important;
+  visibility: hidden !important;
+}
+
+.welcome-note-section {
+  background: transparent !important;
 }
