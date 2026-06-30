@@ -851,6 +851,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
+	z-index: -1;
 }
 .services .section_title h2,
 .services .section_subtitle
@@ -961,6 +962,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	z-index: -1;
 }
 .sermon_row
 {
