@@ -176,3 +176,7 @@
   top: -25px;
   left: 50px;
 }
+
+.welcome-note-section .sermon_background {
+  display: none !important;
+}
