@@ -1,4 +1,13 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "agchurch-website",
+  "compatibility_date": "2026-07-29",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  }
+}
+{
   "name": "agchurch-website",
   "pages_build_output_dir": ".",
   "exclude": [".git", "node_modules"]
