@@ -7,8 +7,3 @@
     "binding": "ASSETS"
   }
 }
-{
-  "name": "agchurch-website",
-  "pages_build_output_dir": ".",
-  "exclude": [".git", "node_modules"]
-}
