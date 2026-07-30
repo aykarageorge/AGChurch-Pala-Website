@@ -1,0 +1,14 @@
+.git
+.git/**
+node_modules
+node_modules/**
+.wrangler
+.wrangler/**
+.github
+.github/**
+*.md
+package.json
+package-lock.json
+wrangler.json
+.wranglerignore
+.assetsignore
